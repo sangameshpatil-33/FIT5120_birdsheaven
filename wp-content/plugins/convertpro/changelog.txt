@@ -1,0 +1,611 @@
+Version 1.7.4 September 28, 2021
+- Improvement: Added WPML integration using wpml-config.xml file.
+- Fix: Rollback popup displayed on WP Forms page.
+- Fix: Fatal error Class WP_Block_Parser not found.
+- Fix: Not able to resize the image more than 700px in customizer.
+- Fix: Select dropdown content not showing properly.
+- Fix: Rollback button UI.
+
+Version 1.7.3 August 25, 2021
+- New: Added Rollback version functionality.
+
+Version 1.7.2 July 15, 2021
+- Fix: Elements gets deleted in the customizer via DELETE/BACKSPACE keys.
+
+Version 1.7.1 July 13, 2021
+- Improvement: WordPress 5.8 Compatibility - Not able to delete Elements using keys.
+- Improvement: Reset form data when button action set to "Submit and Go To URL".
+
+Version 1.7.0 June 01, 2021
+- New: Before/After call-to-action - Option to trigger the popup Inside Post/Page content. (https://www.convertpro.net/docs/cta-inside-post-page/)
+- Improvement: Filter to customize the Email notification From Email ID and From Name. (https://www.convertpro.net/docs/filter-to-change-email-notification/)
+- Improvement: Core Web Vital - Added width and height attribute for image elements.
+- Fix: Unwanted Google Font loading in front-end.
+- Fix: Youtube Autoplay not working.
+- Fix: Viber link not working.
+- Fix: Cookies Slider numbers not visible in Firefox.
+
+Version 1.6.0 April 21, 2021
+
+- New: Show a popup when a number of pages visited. (https://www.convertpro.net/docs/trigger-popup-based-on-page-visits/
+)
+- Improvement: Added dynamic API's Tags support for Checkboxes, Radio buttons, and Dropdown Elements. (https://www.convertpro.net/docs/add-dynamic-tag-support-for-autoresponder/
+)
+- Fix: cppro-ft cookie expiration set to 365 days.
+- Fix: Insert Post Ads plugin JS Conflict with Convert Pro popup editor.
+
+Version 1.5.8 March 11, 2021
+
+- Improvement: Improvement: Added Compatibility with WordPress 5.7.
+- Fix: Convert Pro popup translation issue with WPML.
+
+Version 1.5.7 February 25, 2021
+
+- Improvement: Support latest jQuery function deprecations.
+- Improvement: Added Exit-intent ruleset for Convert Mat call-to-action.
+- Fix: WP Shortcode Pro by MyThemeShop plugin JS Conflict with Convert Pro popup editor.
+
+Version 1.5.6 February 01, 2021
+
+- Improvement: Added YYYY-MM-DD Date format support for FluentCRM integration.
+
+Version 1.5.5 December 30, 2020
+
+- Improvement: Display the Scheduled ruleset under the insight section of the popup.
+- Fix: Elements not resizable when Schema Pro and Rank Math plugin active with WordPress 5.6.
+- Fix: Raffle Ticket Generator - Woocommerce plugin JS Conflict with CPro popup editor.
+
+Version 1.5.4 December 09, 2020
+
+- Improvement: Compatibility with WordPress v5.6 to the CTA's Editor panel. ( Drag and Drop elements, Switch options )
+- Improvement: Duplicate CTA compatibility with PHP 8.0 - Deprecated: Required parameters after optional parameters in function/method signatures.
+- Fix: Urban Mag theme JS Conflict with Convert Pro popup editor.
+
+Version 1.5.3 November 04, 2020
+
+- Improvement: Added Social icons - Instagram, Telegram, Spotify, and Whatsapp.
+- Fix: CTA's Slug name not changed on the front-end markup.
+- Fix: Listeo-Core - Directory Plugin by Purethemes plugin JS Conflict with Convert Pro popup editor.
+- Fix: Ads for WP – Advanced Ads & Adsense Solution for WP & AMP plugin JS Conflict with Convert Pro popup editor.
+- Fix: Elements not displayed in the customizer of Modal popup when height exceeds.
+- Fix: Modal popup "E-book downloads" template not working.
+- Fix: Not able to download the Convert Pro Addon plugin.
+
+Version 1.5.2 September 23, 2020
+
+- New: Option to change CTA's Slug name. ( https://www.convertpro.net/docs/how-to-change-the-popup-slug-name/ )
+- Improvement: Show Inline Shortcode with-in the insight section.
+- Improvement: Added form field validation support with Regex. ( https://www.convertpro.net/docs/how-to-enable-form-field-validation/ )
+
+Version 1.5.1 August 12, 2020
+
+- Improvement: Compatibility with WordPress 5.5.
+
+Version 1.5.0 August 05, 2020
+
+- New: MX validation for Email form field.
+- Fix: YITH WooCommerce Membership Premium plugin JS conflict with Convert Pro editor.
+
+Version 1.4.9 July 20, 2020
+
+- Improvement: Slide-in CTA - Added new Top Left, Top Right, Top Center positions.
+- Fix: Editor errors due to unwanted files present in the plugin's folder.
+- Fix: Warning showing when Custom Adobe Font plugin is active.
+- Fix: Unwanted White bar displaying for the popups.
+- Fix: Warning showing when Google font selected from Global font settings.
+
+Version 1.4.8 June 29, 2020
+
+- Improvement: Change method of loading Google Fonts from JSON to PHP Array.
+- Improvement: Added option to Disable Sticky Info-bar CTA.
+
+Version 1.4.7 June 16, 2020
+
+- New: Users can now share non-personal usage data to help us test and develop better products. ( https://store.brainstormforce.com/usage-tracking/?utm_source=wp_dashboard&utm_medium=general_settings&utm_campaign=usage_tracking )
+- Improvement: Added MM/DD date format support.
+- Fix: Popup Customizer - Sidebar Elements not displaying properly.
+- Fix: YUZO plugin conflict with Convert Pro popup editor.
+- Fix: Schema Pro plugin conflict with Convert Pro popup editor.
+
+Version 1.4.6 June 03, 2020
+
+- New: Added Google Arabic Font support.
+- Fix: CTA Widget - Box Shadow top/bottom not visible.
+- Fix: On Button Hover style border-radius not working.
+- Fix: WoodMart Theme conflict with CPro popup editor.
+- Fix: Soho Hotel Booking plugin conflict with CPro popup editor.
+
+Version 1.4.5 April 02, 2020
+
+- Improvement: Added the MaxMind Geolite2 database integration.(https://www.convertpro.net/docs/integrate-maxmind-geolocation-in-convert-pro/)
+- Improvement: Form Date field - Increased the Year range from 10 to 50.
+- Improvement: Replaced load() to onload() function.
+- Fix: Strong Testimonials Pro Templates plugin JS Conflict Convert Pro popup editor.
+- Fix: Phlox theme CSS Conflict Convert Pro popup editor.
+- Fix: Redeclaration activation() function - woo-commerce gateway payment express plugin.
+- Fix: Scrolling with-in range ruleset not working.
+- Fix: Form data not submitted to the when Mailster/MailPoet API integrated.
+- Fix: Convert Pro Addon - Not able to download.
+- Fix: Displaying the system date in Schedule ruleset.
+- Fix: AB test child CTA's displaying repeatedly.
+- Fix: Template file not loaded properly.
+
+Version 1.4.4 February 25, 2020
+
+- Fix: Unable to search the target specifics display rules.
+- Fix: Unable to edit mailer connection.
+
+Version 1.4.3 February 20, 2020
+
+- Improvement: Hardened the security of plugin.
+- Improvement: Compatibility with latest WordPress PHP_CodeSniffer rules.
+- Fix: Full-Screen CTA Mobile editor elements editing issue.
+- Fix: Slide-In CTA Shape elements pointer showing when 'disable click' event is turned ON.
+- Fix: Not able to create groups on the Convert Pro dashboard.
+
+Version 1.4.2 January 22, 2020
+
+- Security Fix: Cross-site scripting (XSS) vulnerability.
+- Improvements: Re-structured and optimized the codebase to improve security.
+- Fix: WP CLI support added. (https://www.convertpro.net/docs/wp-cli-commands/) 
+- Fix: Ultimate Addons for Visual Composer JS conflict - unable to edit the integrated mailer.
+- Fix: Multiple info-bar overlapping on same position.
+- Fix: Slide-in CTA position issue for toggle button on mobile and desktop in Editor.
+- Fix: Slide-in CTA position issue with Multistep for toggle button on mobile and desktop in Editor.
+- Fix: Slide in CTA position 'bottom centre' issue with toggle button on desktop.
+- Fix: Slide-in CTA with sticky toggle not working on mobile.
+
+Version 1.4.1 January 06, 2020
+
+- Improvement: Conditionally load Geo Location files.
+- Improvement: Filter to change Countdown Timer label name.(https://www.convertpro.net/docs/how-to-change-the-labels-in-the-countdown-timer?/)
+- Fix: Removed unwanted actions for buttons and shapes for - In Content, Before/After and Widget type CTA.
+- Fix: Convert Pro not White-labeled in Google Recaptcha setting page.
+- Fix: Not able to translate the Convert Pro popup when WPML used with CPT.
+- Fix: Bridge Theme JS conflict - Required field not set for the form fields.
+- Fix: Evergenius Theme JS conflict with Convert Pro editor.
+- Fix: Savory theme JS conflict.
+- Fix: Modal popup not centered on the mobile.
+- Fix: String corrections.
+- Fix: Conflict with Astra Theme WooCommerce product plus minus quantity button.
+- Fix: Show Credit link displayed even when it is not set.
+- Fix: Count As Conversion option when Analytics is not set.
+- Fix: Multiple Info-Bar CTA toggle button issue.
+- Fix: Toggle button not showing in Info-bar CTA Editor.
+
+Version 1.4.0 September 10, 2019
+
+- Fix: No update notification for Convert Pro Addon plugin.
+
+Version 1.3.9 September 05, 2019
+
+- Fix: Support Request URL not redirected correctly.
+
+Version 1.3.8 August 01, 2019
+
+- New: Display the info-bar/slide-in CTA within the scroll range. (https://www.convertpro.net/docs/display-within-range-call-to-action-in-convert-pro/)
+- Improvement: Whitelabel � Allow white label for Switches to be updated using PHP constants. ( https://www.convertpro.net/docs/disable-white-label-settings-for-other-user-roles-on-website/)
+- Improvement: Version number added to the JS files that are loaded in front-end.
+- Fix: Vimeo video not auto-playing.
+- Fix: Lazyload images not appearing fix.
+
+Version 1.3.7 June 27, 2019
+- Fix: Multistep Slide-In CTA Form Fields not clickable when Toggle is on.
+- Fix: Full Screen and Welcome Mat CTA - "Field Respective To" option not working.
+- Fix: Schema and Structured data for WP Plugin JS conflict.
+- Fix: Civic Cookie Control 8 Plugin JS Conflict.
+- Fix: Woo Birthday discount vouchers plugin JS Conflict.
+- Fix: Custom Facebook Feed Pro - Extensions Plugin JS Conflict.
+- Fix: WooCommerce Table Rate Shipping Plugin JS Conflict.
+- Fix: Apply Online Plugin JS Conflict.
+- Fix: Bridge Theme JS Conflict.
+- Fix: Sliced Invoices Plugin JS Conflict.
+
+Version 1.3.6 May 15, 2019
+- Fix: Security update with cross-site scripting vulnerability issue.
+
+Version 1.3.5 April 25, 2019
+
+- New: Text Alignment for Countdown Timer.  
+- Improvement: AB Test if cookie is ON for CTA.
+- Fix: CTA translation issue with WPML after WPML update.
+- Fix: WooCommerce deprecated function notice.
+- Fix: Plugin name White label not working for PHP constant.
+- Fix: GeoIP warning for multiple IP addresses.
+- Fix: UAEL - Post Widget author name conflict when excerpt is ON.
+
+Version 1.3.4 April 10, 2019
+
+- New: Search option to Search mailer in Connect section.  
+- New: Whitelabel - Allow white label strings to be updated using PHP constants. - https://www.convertpro.net/docs/disable-white-label-settings-for-other-user-roles-on-website/
+- Improvement: Whitelabel - Permanently hide white label option using a constant. - https://www.convertpro.net/docs/how-to-disable-the-white-label-settings-permanently?/
+- Improvement: Whitelabel - Option to add image in White Label.
+- Improvement: Whitelabel - For multisite.
+- Improvement: Replace plugin strings on the updates page.
+- Improvement: Before/After CTA - Specific Page target option.
+- Improvement: Removed title tags from Shapes for better SEO.
+- Improvement: CP Geo Warning proper handling.
+- Fix: Google Tag Manager tracking not working when White Label.
+- Fix: Warning while fonts typecasting.
+- Fix: Panel Overlay & Background Image not working.
+- Fix: WooCommerce Store Exporter deluxe plugin JS Conflict.
+- Fix: Switching Product plugin JS Conflict.
+- Fix: Multi-rating plugin JS Conflict.
+- Fix: Showcase Pro(Child theme of Genesis Parent theme) theme JS Conflicts.
+- Fix: Google font Pipe for WpRocket.
+
+Version 1.3.3 March 04, 2019
+
+- New: Google reCAPTCHA field.                          
+- New: Google Fonts - 'Krub' font added.
+- New: Filter to add Custom Fonts.                
+- Improvement: Form field 'name' added to panel.        
+- Improvement: Date selector color.                     
+- Fix: Bullet list not appearing in editor.             
+- Fix: Convert Mat CTA - extra action tab removed.      
+- Fix: Full Screen CTA - extra action tab removed.      
+- Fix: Widget Box CTA - extra action tab removed.       
+- Fix: Exit Intent with Scroll - ruleset error.         
+- Fix: Conflict with WPBakery Page Builder.
+- Fix: Conflict with Spider Event Calendar.
+
+Version 1.3.2 January 22, 2019
+
+- New: Checkbox size option.
+- Improvement: A/B testing logic.
+- Improvement: Removed convert pro custom post types from crawling.
+- Fix: Honeypot Anti-spam field - by default enable.
+- Fix: Duplicate multi-step fields not working.
+- Fix: WPSSO plugin conflict.
+- Fix: WP to Buffer plugin conflict.
+- Fix: open_base() dir warning.
+
+Version 1.3.1 December 06, 2018
+
+- Fix: Hide/Show CTA strings were appearing in inline CTAs.
+- Improvement: Improvement in loading translation files.
+
+Version 1.3.0 December 05, 2018
+
+- New: Date Form field.
+- New: Set new cookie when popup is submitted/closed.
+- New: Hide call-to-action by Cookie Name.
+- New: Text Transform option for form fields.
+- Improvement: Show call-to-action by Cookie Name.
+- Improvement: WCAG standard for all form fields.
+- Fix: Convert Mat scrolling issue on mobile.
+- Fix: Bridge theme conflict.
+- Fix: Silverscreen theme conflict.
+- Fix: Pie Register plugin conflict.
+- Fix: All In One Schema Rich Snippets plugin conflict.
+- Fix: Helios Solutions WooCommerce Hide Price and Add to Cart button plugin conflict.
+
+Version 1.2.7 October 04, 2018
+
+- New: Close and Go to URL action.
+- New: Trigger call-to-action by cookie name.
+- Improvement: Geo Targetting miminum requirement notice.
+- Improvement: Empty tooltip when blank Successful Submission Message.
+- Improvement: In-Content Targeting.
+- Fix: Email notification template [SITE_URL].
+- Fix: Dashboard submenu position error.
+- Fix: WooCommerce shop page not appearing in Target Specific Page setting.
+- Fix: Conflict with Schema Creator by Raven plugin.
+- Fix: Add Antispam field to the form setting not working.
+- Fix: In-content call-to-action image cut issue.
+- Fix: Schedule Trigger not working.
+
+Version 1.2.6 September 03, 2018
+
+- Fix: Exit intent and After Scroll trigger conflict.
+- Fix: customizer not loading due to JSON parse error.
+
+Version 1.2.5 August 30, 2018
+
+- New: Exclude country GeoIP Targeting.
+- New: Filter to disable Google font on the front end.
+- New: Separate padding option for textarea.
+- New: Custom Typekit Fonts plugin support.
+- New: Custom Fonts plugin support.
+- Fix: Bottom right toggle popup transform issue.
+- Fix: Form field focus color.
+- Fix: Removed success message from inside the submit button.
+- Fix: GeoIP Targeting - log error issue.
+- Fix: Modal popup image overlay issue.
+
+Version 1.2.4 July 26, 2018
+- Fix: Conflict with Search Exclude plugin.
+
+Version 1.2.3 July 25, 2018
+
+- New: GeoIP Targeting by country.
+- Fix: Issue with Q2W3 Widget fixed position.
+- Fix: Pause YouTube video on closing popup.
+- Fix: Customizer field repetitive error.
+- Fix: Conflict with Search Exclude plugin.
+- Fix: Conflict with Molongui Authorship Premium plugin.
+- Fix: Slide In transform display issue.
+
+Version 1.2.2 June 29, 2018
+
+- New: Disable Call-to-actions for Subscribers using URL parameter cph.
+- New: Honeypot spam prevention.
+- Fix: Slide In call-to-action background color overlay extra opacity removed.
+- Fix: Connect - popup fields placeholder color lightened.
+- Fix: YouTube autoplay parameter updated.
+
+Version 1.2.1 May 25, 2018
+
+- New: Added pass through GET parameter on form submission option for shape field.
+- Fix: Page scroll not working with inline call-to-actions.
+- Fix: Conflict with Polylang plugin.
+
+Version 1.2.0.1 May 09, 2018
+- Fix: Template select not working.
+
+Version 1.2.0 May 09, 2018
+
+- New: WPML native compatibility
+- Improvement: Date format in an email notification.
+- Improvement: Saving assets to site media on importing template.
+- Improvement: PDF file will download instead of open in the browser.
+- Fix: Close image not visible for full-screen call-to-action.
+- Fix: Conflict with Advanced Contact form 7 DB plugin
+- Fix: full-screen popup issue on iOS devices.
+- Fix: White space issue for inline call-to-action
+- Fix: Issue with on click trigger on iOs devices
+- Fix: Tab index issue for form fields.	
+
+Version 1.1.6 April 17, 2018
+
+- New: Line height option for checkbox field.
+- Fix: Scroll issue for the Full-screen popup on mobile devices.
+- Fix: TinyMCE style issue due to the conflict with OptimizePress plugin.
+- Fix: HTML tags in checkbox option not working.
+- Fix: Shortcode copied in visual editor renders additional HTML.
+- Fix: Toggle position changes on resize.
+
+Version 1.1.5 March 20, 2018
+
+- New: Introduced filter cpro_enable_after_post to disable adding span after post content. 
+- Fix: JS conflict with NextGEN Gallery plugin.
+- Fix: Popup block for redirection issue in the same tab.
+- Fix: HTML entities appearing in the email subject.
+- Fix: Info bar close not working when the toggle is enabled.
+
+Version 1.1.4 March 07, 2018
+
+- Fix: Conflict with Autoptimize and Elementor plugin. 
+- Fix: Menu pages not working if dash added in branding name. 
+- Fix: Conflict with Themify plugin.
+- Fix: Insight views not displaying info according to rulesets.
+- Fix: Dropdown required field option not working.
+
+Version 1.1.3.1 February 8, 2018
+
+- Fix: Division creating extra space in footer issue.
+- Fix: Dropdown background color not working issue.
+- Fix: Info bar overlapping with admin bar options.
+- Fix: Wrong date in email notification.
+
+Version 1.1.3 January 31, 2018
+
+- New: Adblock detection launch control.
+- New: Hide refresh template cloud option in branding settings.
+- Improvement: Fallback support for cookie library.
+- Fix: Tags are not displaying in target page settings for before after call-to-action.
+- Fix: Conflict with the clinky plugin.
+- Fix: Extra space issue for widget call-to-action type.
+- Fix: Hide on device option not working properly.
+- Fix: Conflict with Learnpress plugin. 
+- Fix: Form submission loader not working for inline call-to-action.
+- Fix: Form submission loader not working for inline call-to-actions.
+- Fix: Window scroll to top on closing call-to-action on the mobile device.
+- Fix: Tags are not displaying in target page settings for before after call-to-action
+- Fix: A/B test screen not working with while label name.e.
+
+Version 1.1.2 January 10, 2018 
+
+- Fix: Conflict with fusion builder plugin.
+- Fix: Scroll not working for mailer account list screen. 
+
+Version 1.1.1 January 03, 2018 
+
+- New: Added white label support.
+- Fix: Info bar close not working when push page down is enabled. 
+- Fix: Single quote issue with placeholder text.
+- Fix: Radio button field values not getting passed to redirect URL as GET parameter.
+- Fix: Show credit link option in general settings not working. 
+- Fix: jQuery conflicts on the backend.
+- Fix: Redirect in new tab not working for image field.
+- Fix: Form fields not visible in call-to-action before post.
+- Fix: Height issue for inline modules on the mobile device.
+- Fix: Scroll not working for Convert Mat Call-to-action on iOs devices.
+
+Version 1.1.0 - December 18, 2017
+
+- New: Advanced targetting with Rule sets in configuration settings.
+- New: Multi-step support for in content, before after, widget and slide in the call-to-action.
+- New: Page push down option for info bar. 
+- New: Provision to install the beta version.
+- Improvement: Passing clean get parameters to redirect URL after submission. 
+- Fix: Hide on devices not working when disabled on mobile and tablet both.
+- Fix: Welcome Mat / Full screen doesn't work with inline call-to-action.
+- Fix: Conversion cookie set not working for count as conversion action.
+- Fix: Background image with overlay color not working for info bar call-to-action.
+- Fix: Text shadow issue for the button.
+
+Version 1.0.4 - November 08, 2017
+
+- New: Countdown Element.
+- New: Full screen popup module.
+- New: Welcome mat module.
+- Fix: Rotation not working issue for elements.
+- Fix: Conversion cookie not working properly.
+- Fix: Cursor misplaced on iOS devices.
+- Fix: Shape style overwritten by theme CSS.
+- Fix: Default background image not working.
+- Fix: text alignment issue for heading and subheading due to conflict with theme.
+- Fix: Console error fix while using up/down/left/right key to shift element.
+- Fix: Tab indexing issue on front end.
+
+Version 1.0.3 - October 17, 2017
+
+- Fix : Radio Button and Checkbox field default width issue.
+- Fix : Scroll to top issue when cta closed on mobile issue.
+- Fix : Invalid URL issue for images, custom HTML, etc.
+- New : New option added to pass form fields as GET parameters.
+
+Version 1.0.2 - October 12, 2017
+
+- Improvement: Target all posts of the same category in display rules.
+- Fix: Required field option not working for radio and checkbox field.
+- Fix: Removed text capitalize for success message after form submission. 
+
+Version 1.0.1 - October 10, 2017 
+
+- Improvement: Displaying progress while creating call-to-action.
+- Fix: New call to action create not working. 
+
+Version 1.0.0 October 09, 2017
+
+- New: Sorting call to action according to A/B Test parent child hirarchy.
+- Improvement: Opening A/B Test link from call to action list view in same tab.
+- Improvement: Modify the name while duplicating call to action.
+- Improvement: Modified condition for Mailpoet plugin activation.
+- Fix: Conflict with Mautic gated videos.
+- Fix: Button hover color conflict with success message.
+- Fix: Mobile breakpoint width not getting saved.
+- Fix: Launch settings not showing for before after module.
+- Fix: Image display conflict with Social Warfare plugin.
+- Fix: Issue for A/B test if used with click trigger for info bar and slide in.
+- Fix: Slider style conflict with listingpro plugin.
+- Fix: Scroll issue on mobile devices for In Content Designs.
+- Fix: Custom class trigger should always open modal / info bar / slide in on every click.
+
+Version 1.0.0-rc.11 September 20, 2017
+
+- New: Count as a conversion action for button.
+- New: Placeholder color option for form field.
+- New: Video Element.
+- Improvement: Update HTML of call-to-action after duplication.
+- Security Fix: A cross-site scripting (XSS) vulnerability was discovered in links.
+- Fix: TinyMCE editor selection issue on Firefox browser.
+- Fix: Popup scroll issue on mobile landscape mode.
+- Fix: Facebook page video not working.
+- Fix: Width issue for checkbox and radio field in back end customizer.
+
+Version 1.0.0-rc.10 September 06, 2017
+
+- Improvement: Handled fallback for WP Query reset post data.
+- Fix: Modal scroll issue when popup height is more than viewport.
+- Fix: Text editor working issue when visual editor is disabled.
+
+Version 1.0.0-rc.9 Aug 30, 2017
+
+- Improvement: Redirecting to home URL instead of site URL for view site link in customizer
+- Fix: Compatibility issues with PHP version prior to 5.5
+- Fix: Close image overlap with admin bar for info bar. 
+- Fix: Submit and Go to URL action in new tab working.
+
+Version 1.0.0-rc.8 Aug 29, 2017
+
+- Fix: Slide in appears again even after closing for scroll launch control.
+
+Version 1.0.0-rc.7 Aug 28, 2017
+
+- Improvement: Removed cateogory archive pages option for post type page in target page options
+- Fix: JS Conflict with Convert Plus 
+
+Version 1.0.0-rc.6 Aug 24, 2017
+
+- Fix: Issue with Slide In module display for A/B Test. 
+
+Version 1.0.0-rc.5 Aug 23, 2017
+
+- New: Global settings for email notification template 
+- Fix: Popup not visible for logged out users
+- Fix: Form field mapping not working
+
+Version 1.0.0-rc.4 Aug 18, 2017
+
+- New: Margin option for Widget module.
+- Fix: Page level targetting for category archive page working.
+- Fix: Google Analytics tracking for inline ( before after, widget, In content ) modules.
+- Fix: Inline module form submission working.
+- Improvement: Tab index for form fields.
+
+Version 1.0.0-rc.3 Aug 17, 2017
+
+- New: Shapes added
+- Fix: Shape hover color not working
+- Fix: Removed input validation while switching to previous step
+
+Version 1.0.0-rc.2 Aug 16, 2017
+
+- New: Page level targeting for widget module
+- New: Custom class option for fields
+- Fix: CSS conflict with Analytify - Google Analytics plugin
+
+Version 1.0.0-rc.1 Aug 14, 2017
+
+- Fix: Gradient button hover color not working
+- New: Email template option under settings 
+
+Version 1.0.0-beta.10 Aug 11, 2017
+
+- Fix: Step clone issues
+- New: Added option to hide element outside canvas for slide in
+
+Version 1.0.0-beta.9 Aug 10, 2017
+
+- Improvement: Target page settings 
+
+Version 1.0.0-beta.8 Aug 09, 2017
+
+- Improvement: Device detection using PHP only
+- Fix: Letter spacing issue for heading
+- Fix: Overlay click close disable not working
+- Fix: Slide in toggle position issues
+- Fix: Image overlap with border radius issue for inline module
+
+Version 1.0.0-beta.7 Aug 04, 2017
+
+- Improvement: Text wrp for heading element
+- Fix: Popup visible in Visual composer front end editor
+
+Version 1.0.0-beta.6 Aug 03, 2017
+
+- Improvement: Device editor switch functionality
+- Improvement: Google Tag Manager support for analytics event tracking
+- Fix: Background image issues for multistep
+
+Version 1.0.0-beta.5 July 28, 2017
+
+- Improvement: step switch animations
+- Fix: Multistep switch not working properly 
+
+Version 1.0.0-beta.4 July 27, 2017
+
+- Improvements: Mobile Initial View
+- New: Shortcut to access panel settings
+
+Version 1.0.0-beta.3 July 26, 2017
+
+- New: Global font settings option
+- New: Improved multistep bar 
+- New: TinyMCE paste plain text 
+- Fix: Tinymce relative URL issue 
+
+Version 1.0.0-beta.2 July 18, 2017
+
+- New: Lazy load images for styles 
+- New: Multistep form submission
+- Fixed: Conflicts with other modules for Modal Popup while form submission
+
+Version 1.0.0-beta.1 July 7, 2017 
+
+- Initial release.
+
+
+

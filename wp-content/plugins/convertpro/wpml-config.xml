@@ -1,0 +1,22 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">cp_popups</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="0">cp_campaign</taxonomy>
+        <taxonomy translate="0">cp_connections</taxonomy>
+    </taxonomies>
+    <custom-fields>
+        <custom-field action="copy-once">cp_module_type</custom-field>
+        <custom-field action="copy-once">cp_mobile_responsive</custom-field>
+        <custom-field action="copy-once">cp_mobile_generated</custom-field>
+        <custom-field action="copy-once">has_active_ab_test</custom-field>
+        <custom-field action="copy-once">cp_modal_data</custom-field>
+        <custom-field action="copy-once">cp_gfonts</custom-field>
+        <custom-field action="copy-once">live</custom-field>
+        <custom-field action="copy-once">design</custom-field>
+        <custom-field action="copy-once">configure</custom-field>
+        <custom-field action="copy-once">connect</custom-field>
+        <custom-field action="copy-once">html_data</custom-field>
+    </custom-fields>
+</wpml-config>

@@ -1,0 +1,42 @@
+[29-08-2022 14:12:28] function LEAccount __construct:
+No account found, attempting to create account.
+
+[29-08-2022 14:12:31] function LEClient __construct:
+LEClient finished constructing
+
+[29-08-2022 14:12:31] function LEOrder __construct:
+No order found for 'littlebirdsheaven.com'. Creating new order.
+
+[29-08-2022 14:12:33] function createOrder (function LEOrder __construct):
+Created order for 'littlebirdsheaven.com'.
+
+[29-08-2022 14:12:36] function LEClient __construct:
+LEClient finished constructing
+
+[29-08-2022 14:15:14] function LEClient __construct:
+LEClient finished constructing
+
+[29-08-2022 14:15:17] function LEClient __construct:
+LEClient finished constructing
+
+[29-08-2022 14:15:23] function LEClient __construct:
+LEClient finished constructing
+
+[29-08-2022 14:15:40] function LEClient __construct:
+LEClient finished constructing
+
+[29-08-2022 14:15:44] function LEClient __construct:
+LEClient finished constructing
+
+[29-08-2022 14:15:48] function finalizeOrder:
+Order for 'littlebirdsheaven.com' finalized.
+
+[29-08-2022 14:15:50] function LEClient __construct:
+LEClient finished constructing
+
+[29-08-2022 14:15:52] function getCertificate:
+Certificate for 'littlebirdsheaven.com' saved
+
+[29-08-2022 14:15:53] function getCertificate:
+Certificate for 'littlebirdsheaven.com' saved
+

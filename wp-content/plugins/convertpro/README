@@ -1,0 +1,27 @@
+# Convert Pro
+
+== License ==
+
+= TinyMCE =
+
+TinyMCE used for rich text editor.
+(https://icai.org/js/tinymce/plugins/)
+Distributed under the terms of the GNU GPL v2.
+
+= WP Color Picker Alpha =
+
+WP Color Picker Alpha is used to Overwrite Automattic Iris for enabled Alpha Channel in wpColorPicker By Sergio. (https://github.com/kallookoo/wp-color-picker-alpha)
+Distributed under the terms of the GNU GPL v2.
+
+= IcoMoon-Free =
+
+Convert Pro icon and designs Shapes SVG is based on IcoMoon-Free vector icon by Keyamoon.
+IcoMoon-Free vector icon destributed under trems of CC BY 4.0 or GPL. (https://creativecommons.org/licenses/by/4.0/ or https://www.gnu.org/licenses/gpl.html)
+Source: https://keyamoon.com/
+
+= Geolite2 MaxMind Database Reader =
+
+This is the PHP API for reading MaxMind DB files. MaxMind DB is a binary file format that stores data indexed by IP address subnets (IPv4 or IPv6).
+(https://github.com/maxmind/MaxMind-DB-Reader-php/blob/master/LICENSE)
+Distributed under the terms of the Apache License 2.0.
+

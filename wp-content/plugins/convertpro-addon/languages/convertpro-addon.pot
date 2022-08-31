@@ -1,0 +1,2502 @@
+# Copyright (C) 2021 Brainstorm Force
+# This file is distributed under the same license as the Convert Pro - Addon package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Convert Pro - Addon 1.5.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/convertpro-addon\n"
+"POT-Creation-Date: 2021-07-14 09:23:16+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: addons/ab-test/admin/abtest-analytics.php:17
+#: addons/analytics/views/ga-insights-view.php:98
+msgid "Google Analytics"
+msgstr ""
+
+#: addons/ab-test/admin/abtest-analytics.php:24
+#: addons/analytics/views/ga-insights-view.php:120
+msgid "Loading..."
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:24
+msgid "Minimum 2 Call-to-actions Required"
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:29 addons/ab-test/admin/main.php:31
+#: addons/ab-test/classes/class-cpro-abtest-loader.php:142
+msgid "Create New Test"
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:44
+#. translators: %s link
+msgid ""
+"You need minimum 2 call-to-actions to create A/B test. Create a new "
+"call-to-action"
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:44 addons/ab-test/admin/main.php:49
+msgid " here."
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:52
+msgid "A/B Test Title"
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:53
+msgid "Title"
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:57
+msgid "Choose the call-to-actions you wish to compare"
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:64
+msgid "Choose a parent call-to-action to inherit configuration settings"
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:64
+msgid ""
+"The other call-to-actions will inherit the configuration settings of the "
+"parent call-to-action selected here."
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:68
+#: addons/ab-test/classes/class-cpro-abtest-loader.php:140
+msgid "--Select--"
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:72
+msgid "Select a time period for the test"
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:78
+#: addons/ab-test/admin/abtest-modal.php:79
+msgid "Start Date"
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:88
+#: addons/ab-test/admin/abtest-modal.php:89
+msgid "End Date"
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:98
+msgid "Automatically publish the winner call-to-action after test period"
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:99
+msgid "Note: The other call-to-actions will be paused"
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:105
+msgid "Cancel"
+msgstr ""
+
+#: addons/ab-test/admin/abtest-modal.php:106
+#: addons/ab-test/classes/class-cpro-abtest-loader.php:141
+msgid "Create Test"
+msgstr ""
+
+#: addons/ab-test/admin/main.php:27
+msgid "A/B Tests"
+msgstr ""
+
+#: addons/ab-test/admin/main.php:49
+msgid ""
+"You need minimum 2 call-to-actions of type Modal Popup/ Info Bar/ Slide In "
+"to create A/B test. Create a new call-to-action "
+msgstr ""
+
+#: addons/ab-test/admin/main.php:54
+msgid "You have not compared any call-to-actions. You can create an A/B test "
+msgstr ""
+
+#: addons/ab-test/admin/main.php:54
+msgid "here."
+msgstr ""
+
+#: addons/ab-test/admin/main.php:59
+msgid "Edit"
+msgstr ""
+
+#: addons/ab-test/admin/main.php:63
+msgid "Stop"
+msgstr ""
+
+#: addons/ab-test/admin/main.php:67
+msgid "Delete"
+msgstr ""
+
+#: addons/ab-test/classes/class-cp-v2-ab-test.php:431
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: addons/ab-test/classes/class-cp-v2-ab-test.php:489
+msgid "A/B Test created successfully!"
+msgstr ""
+
+#: addons/ab-test/classes/class-cp-v2-ab-test.php:493
+msgid ""
+"Oops! You already have an A/B Test with this name. Please try with a new "
+"name."
+msgstr ""
+
+#: addons/ab-test/classes/class-cp-v2-ab-test.php:652
+msgid "A/B test updated successfully!"
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-admin.php:59
+msgid "AB Tests"
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-helper.php:112
+msgid "Completed"
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-helper.php:120
+msgid "Live"
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-helper.php:120
+msgid "Pause"
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-helper.php:146
+msgid "Test Name"
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-helper.php:151
+msgid "Under Test"
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-helper.php:154
+msgid "Interval"
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-helper.php:157
+msgid "Insight"
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-helper.php:160
+msgid "Status"
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-loader.php:68
+#: classes/class-cp-addon-extension.php:31
+msgid "A/B Test"
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-loader.php:131
+msgid "Please enter the end date."
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-loader.php:132
+msgid "Please enter the start date."
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-loader.php:133
+msgid "Are you sure you want to delete this A/B Test?"
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-loader.php:134
+msgid ""
+"Are you sure you want to stop this A/B Test? Once you stop it, you can not "
+"start it again. Also, the winner style will be live."
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-loader.php:135
+msgid "Error: Please select parent style."
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-loader.php:136
+msgid "Error: Please select at least two call-to-actions."
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-loader.php:137
+msgid "Error: Please select the call-to-actions you wish to compare."
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-loader.php:138
+msgid "Select Call-to-actions"
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-loader.php:139
+msgid "Edit Test"
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-loader.php:143
+msgid "Update Test"
+msgstr ""
+
+#: addons/ab-test/classes/class-cpro-abtest-loader.php:144
+msgid "Saved"
+msgstr ""
+
+#: addons/advanced-scripts/classes/class-cpro-scripts-loader.php:82
+msgid "After Call-to-action Open"
+msgstr ""
+
+#: addons/advanced-scripts/classes/class-cpro-scripts-loader.php:97
+msgid "After Call-to-action Close"
+msgstr ""
+
+#: addons/advanced-scripts/classes/class-cpro-scripts-loader.php:113
+msgid "After Submission"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-ga-loader.php:78
+#: addons/analytics/classes/class-cp-ga-loader.php:102
+#: addons/analytics/classes/class-cp-ga-loader.php:115
+#: classes/class-cp-addon-extension.php:49
+msgid "Analytics"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-ga-loader.php:288
+#. translators: %s link
+msgid ""
+"You have not entered the access code! Please <a "
+"class=\"google-analytic-page-link\" href=\"%s\" target=\"_blank\" "
+"rel=\"noopener\">click here</a> to get an access code."
+msgstr ""
+
+#: addons/analytics/classes/class-cp-ga-loader.php:289
+msgid "Processing your request. This might take few minutes."
+msgstr ""
+
+#: addons/analytics/classes/class-cp-ga-loader.php:290
+msgid "Google Analytics data updated. Redirecting..."
+msgstr ""
+
+#: addons/analytics/classes/class-cp-ga-loader.php:291
+msgid "Authorizing..."
+msgstr ""
+
+#: addons/analytics/classes/class-cp-ga-loader.php:292
+msgid "Are you sure you want to delete Google Analytics Integration?"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:156
+#: addons/analytics/views/ga-insights-view.php:27
+msgid "Impressions"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:159
+#: addons/analytics/views/ga-insights-view.php:36
+msgid "Conversions"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:162
+#: addons/analytics/views/ga-insights-view.php:45
+msgid "Conversion Rate"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:188
+msgid "Today's Summary"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:192
+msgid "Last updated "
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:197
+msgid "Update Analytics data"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:216
+msgid " years"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:216
+msgid " year"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:219
+msgid " months"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:219
+msgid " month"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:222
+msgid " days"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:222
+msgid " day"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:225
+msgid " hours"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:225
+msgid " hour"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:228
+msgid " minutes"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:228
+msgid " minute"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga-insights.php:230
+msgid "less than a minute"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga.php:625
+#. translators: %s auth URL
+msgid ""
+"Please create a Google Analytics Property for this Domain. <a "
+"class=\"google-analytic-page-link\" href=\"%s\" target=\"_blank\" "
+"rel=\"noopener\">Know more.</a>"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga.php:636
+#. translators: %s auth URL
+msgid ""
+"This access code was already redeemed. Please try generating a new code "
+"from <a href=\"%s\" target=\"_blank\" rel=\"noopener\">here.</a>"
+msgstr ""
+
+#: addons/analytics/classes/class-cp-v2-ga.php:653
+#. translators: %s auth URL
+msgid ""
+"The access code you entered is incorrect! Please <a "
+"class=\"google-analytic-page-link\" target=\"_blank\" rel=\"noopener\" "
+"href=\"%s\">click here</a> to get an access code."
+msgstr ""
+
+#: addons/analytics/views/ga-insights-view.php:57
+msgid "Google Analytics Authorization"
+msgstr ""
+
+#: addons/analytics/views/ga-insights-view.php:64
+#. translators: %s percentage
+msgid "Allow %s to access your Analytics account to sync Analytics data."
+msgstr ""
+
+#: addons/analytics/views/ga-insights-view.php:75
+msgid "Get a Google Analytics access code from "
+msgstr ""
+
+#: addons/analytics/views/ga-insights-view.php:77
+#: addons/analytics/views/ga-settings-view.php:147
+msgid "here"
+msgstr ""
+
+#: addons/analytics/views/ga-insights-view.php:79
+#: addons/analytics/views/ga-settings-view.php:149
+msgid ", and paste it below."
+msgstr ""
+
+#: addons/analytics/views/ga-insights-view.php:83
+#: addons/analytics/views/ga-settings-view.php:162
+msgid "Enter access code here"
+msgstr ""
+
+#: addons/analytics/views/ga-insights-view.php:87
+msgid "AUTHENTICATE MY ACCOUNT"
+msgstr ""
+
+#: addons/analytics/views/ga-insights-view.php:108
+msgid "Impressions: "
+msgstr ""
+
+#: addons/analytics/views/ga-insights-view.php:112
+msgid "Conversions: "
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:19
+msgid "Step 1 - Enable website tracking"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:23
+#. translators: %s Product name
+msgid ""
+"%s needs a Universal Google Analytics tracking code on your website for "
+"tracking impressions & conversions. Please select a method to add the code."
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:31
+msgid "Tracking Code Info"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:36
+msgid "Already added Universal Google Analytics code"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:37
+msgid "Already added Google Tag Manager code"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:38
+msgid "Already added Global Site Tag (gtag) code"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:39
+msgid "Add Google Analytics Tracking ID"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:45
+msgid "Anonymize IP for event tracking"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:65
+msgid "Learn more about IP Anonymization in Analytics."
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:71
+msgid "Tag Manager Configurations"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:77
+msgid "Please follow the steps to "
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:86
+#. translators: %s Link
+msgid "Setup %1$s Events in Google Tag Manager."
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:90
+msgid " This is a must when you want to integrate with Google Analytics."
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:98
+msgid "Google Analytics Tracking ID"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:113
+msgid "Where Can I find this?"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:122
+msgid "Save Settings"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:130
+#. translators: %s Product Name
+msgid "Step 2 - Authorize %s to view Google Analytics data"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:140
+#. translators: %s Product Name
+msgid "Allow %s to fetch analytics data from your Google Analytics account."
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:145
+msgid " Get a Google Analytics access code from "
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:159
+#: addons/connects/services/aweber/class-cpro-service-aweber.php:139
+msgid "Authorization Code"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:168
+msgid "Select Profile/View"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:179
+msgid "NEXT"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:180
+msgid "Saving..."
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:180
+msgid "Save"
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:201
+msgid "You have authenticated with "
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:205
+msgid "'s Google Analytics account."
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:210
+msgid "View ID: "
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:221
+msgid "Timezone: "
+msgstr ""
+
+#: addons/analytics/views/ga-settings-view.php:230
+msgid "Remove Google Analytics Integration"
+msgstr ""
+
+#: addons/connects/classes/class-convertplugservices.php:466
+msgid "Integration Name should not be blank."
+msgstr ""
+
+#: addons/connects/classes/class-convertplugservices.php:497
+msgid "Provide a name for this integration"
+msgstr ""
+
+#: addons/connects/classes/class-convertplugservices.php:552
+msgid "You have not added an account yet. Please add a new account."
+msgstr ""
+
+#: addons/connects/classes/class-convertplugservices.php:564
+msgid "Select Integration"
+msgstr ""
+
+#: addons/connects/classes/class-convertplugservices.php:575
+#: addons/connects/classes/class-convertplugservices.php:579
+msgid "You have not added a account yet. Please add a new account."
+msgstr ""
+
+#: addons/connects/classes/class-convertplugservices.php:618
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:276
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:316
+#: addons/connects/services/aweber/class-cpro-service-aweber.php:238
+#: addons/connects/services/benchmark-email/class-cpro-service-benchmark-email.php:198
+#: addons/connects/services/campaign-monitor/class-cpro-service-campaign-monitor.php:180
+#: addons/connects/services/campaign-monitor/class-cpro-service-campaign-monitor.php:234
+#: addons/connects/services/campayn/class-cpro-service-campayn.php:256
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:277
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:357
+#: addons/connects/services/constant-contact/class-cpro-service-constant-contact.php:179
+#: addons/connects/services/convertkit/class-cpro-service-convertkit.php:218
+#: addons/connects/services/convertkit/class-cpro-service-convertkit.php:258
+#: addons/connects/services/drip/class-cpro-service-drip.php:206
+#: addons/connects/services/drip/class-cpro-service-drip.php:265
+#: addons/connects/services/elasticemail/class-cpro-service-elasticemail.php:209
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:256
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:296
+#: addons/connects/services/hubspot/class-cpro-service-hubspot.php:175
+#: addons/connects/services/icontact/class-cpro-service-icontact.php:244
+#: addons/connects/services/klaviyo/class-cpro-service-klaviyo.php:200
+#: addons/connects/services/madmimi/class-cpro-service-madmimi.php:200
+#: addons/connects/services/mailchimp/class-cpro-service-mailchimp.php:217
+#: addons/connects/services/mailchimp/class-cpro-service-mailchimp.php:292
+#: addons/connects/services/mailchimp/class-cpro-service-mailchimp.php:336
+#: addons/connects/services/mailerlite/class-cpro-service-mailerlite.php:214
+#: addons/connects/services/mailgun/class-cpro-service-mailgun.php:222
+#: addons/connects/services/mailjet/class-cpro-service-mailjet.php:247
+#: addons/connects/services/mailpoet/class-cpro-service-mailpoet.php:177
+#: addons/connects/services/mailwizz/class-cpro-service-mailwizz.php:276
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:386
+#: addons/connects/services/moosend/class-cpro-service-moosend.php:185
+#: addons/connects/services/mymail/class-cpro-service-mymail.php:152
+#: addons/connects/services/ontraport/class-cpro-service-ontraport.php:260
+#: addons/connects/services/sendfox/class-cpro-service-sendfox.php:186
+#: addons/connects/services/sendgrid/class-cpro-service-sendgrid.php:202
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:292
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:334
+#: addons/connects/services/sendlane/class-cpro-service-sendlane.php:223
+#: addons/connects/services/sendreach/class-cpro-service-sendreach.php:281
+#: addons/connects/services/simplycast/class-cpro-service-simplycast.php:196
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:174
+#: addons/connects/services/verticalresponse/class-cpro-service-verticalresponse.php:211
+msgid "Choose..."
+msgstr ""
+
+#: addons/connects/classes/class-convertplugservices.php:626
+msgid "Add Integration..."
+msgstr ""
+
+#: addons/connects/classes/class-convertplugservices.php:635
+msgid "Existing Integration"
+msgstr ""
+
+#: addons/connects/classes/class-convertplugservices.php:953
+#: addons/connects/classes/class-convertplugservices.php:1114
+msgid "You are not connected to any service."
+msgstr ""
+
+#: addons/connects/classes/class-convertplugservices.php:1045
+#: addons/connects/classes/class-cp-v2-services-loader.php:110
+#. translators: %s Error Message
+#. translators: %s Product name
+msgid ""
+"Important Notification! - [SITE_NAME] - %s [MAILER_SERVICE_NAME] "
+"configuration error"
+msgstr ""
+
+#: addons/connects/classes/class-convertplugservices.php:1213
+msgid "Wrong Style ID. Please check with admin."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:122
+msgid "Error Notification"
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:125
+msgid ""
+"This is an email that will be sent to you every time a user subscribes "
+"through a form and some error is encountered. You can customize the email "
+"subject and body in the fields below. "
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:129
+msgid "This is applicable when you integrate with some mailer service."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:136
+msgid "Template Subject"
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:144
+msgid "Template"
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:179
+msgid "Oh sorry! Something went wrong!"
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:180
+msgid ""
+"You cannot delete this account. It is already associated with a "
+"call-to-action."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:181
+msgid ""
+"This \"##account_name##\" account will be deleted permanently. Do you wish "
+"to continue?"
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:182
+msgid "Are you sure you want to remove this?"
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:183
+msgid "Please select a valid account. Or go ahead and create a new account."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:184
+msgid "Enter \"Name\" of the field"
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:185
+msgid ""
+"Oops! You did not add an email field! We will not be able to pass values "
+"without an email field."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:186
+msgid "All done! Please save the changes & publish."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:187
+msgid "Oops! Your design do not have form fields. You don't need integration."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:188
+msgid "Custom Field"
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:189
+msgid "--- Select Value ---"
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:190
+msgid "Please select a valid list."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:191
+msgid "Please select a valid form."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:192
+msgid "Please select the kind of integration you want; A list or a form."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:193
+msgid "Please select a valid Drip account."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:194
+msgid "Please select a valid sequence."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:195
+msgid "Please enter a valid list ID."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:196
+msgid "Please select a client from the dropdown menu."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:197
+msgid "Please select at least a single tag."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:199
+#. translators: %s Product name
+msgid "%s Fields"
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:200
+msgid "Mailer Fields"
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:201
+msgid ""
+"The following fields are not mapped with your <b>##mailer_name##</b> "
+"account. Please map those fields from <b>Connect > ##account_name##</b>. "
+"<br><br><i>If left unmapped, you will miss out the data entered in these "
+"fields.</i>"
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:202
+msgid "Testing Connection..."
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:203
+msgid "Tested"
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:204
+#: addons/connects/classes/class-cp-v2-services-loader.php:407
+msgid "Test Connection"
+msgstr ""
+
+#: addons/connects/classes/class-cp-v2-services-loader.php:297
+#: addons/connects/classes/class-cp-v2-services-loader.php:341
+msgid "Account Name should not be blank."
+msgstr ""
+
+#: addons/connects/includes/vendor/klaviyo/klaviyo.php:69
+#: addons/connects/includes/vendor/klaviyo/klaviyo.php:116
+#: addons/connects/includes/vendor/mailgun/class-cpro-mailgun-api.php:75
+#: addons/connects/includes/vendor/mailgun/class-cpro-mailgun-api.php:117
+#: addons/connects/includes/vendor/mailgun/class-cpro-mailgun-api.php:183
+#: addons/connects/includes/vendor/mailgun/class-cpro-mailgun-api.php:196
+#: addons/connects/includes/vendor/sendgrid/sendgrid.php:74
+#: addons/connects/includes/vendor/sendgrid/sendgrid.php:122
+msgid "Something went wrong."
+msgstr ""
+
+#: addons/connects/includes/vendor/mautic/class-cp-mautic-api.php:39
+msgid "You must provide credentails for Mautic integration"
+msgstr ""
+
+#: addons/connects/includes/vendor/mautic/class-cp-mautic-api.php:409
+msgid "There appears to be an error with the configuration."
+msgstr ""
+
+#: addons/connects/includes/vendor/mautic/class-cp-mautic-api.php:420
+#. translators: %s Error Message
+msgid ""
+"404 error. This sometimes happens when you've just enabled the API, and "
+"your cache needs to be rebuilt. See <a href=\"%1$s\" target=\"_blank\">here "
+"for more info</a> - %2$s"
+msgstr ""
+
+#: addons/connects/includes/vendor/mautic/class-cp-mautic-api.php:424
+#. translators: %s Error Message
+msgid ""
+"403 error. You need to enable the API from within Mautic's configuration "
+"settings to connect. - %s"
+msgstr ""
+
+#: addons/connects/includes/vendor/mautic/class-cp-mautic-api.php:428
+#. translators: %s Error Message
+msgid "%s - %s"
+msgstr ""
+
+#: addons/connects/includes/vendor/mautic/class-cp-mautic-api.php:449
+msgid "There appears to be an error with the configuration. - %s"
+msgstr ""
+
+#: addons/connects/includes/vendor/moosend/moosend.php:59
+msgid "This is not a valid API Key."
+msgstr ""
+
+#: addons/connects/includes/vendor/moosend/moosend.php:90
+msgid "It seems like there are no lists present in your account."
+msgstr ""
+
+#: addons/connects/includes/vendor/sendfox/cp-v2-sendfox.php:66
+#: addons/connects/includes/vendor/sendfox/cp-v2-sendfox.php:103
+msgid "Error: API Access token not valid!"
+msgstr ""
+
+#: addons/connects/includes/vendor/sendfox/cp-v2-sendfox.php:141
+msgid "Error: There was an error subscribing to SendFox!!!"
+msgstr ""
+
+#: addons/connects/includes/vendor/verticalresponse/verticalresponse_api.php:33
+msgid "You must provide credentails for VerticalResponse integration"
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:85
+msgid "Error: You must provide an API URL."
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:88
+#: addons/connects/services/benchmark-email/class-cpro-service-benchmark-email.php:86
+#: addons/connects/services/convertkit/class-cpro-service-convertkit.php:85
+#: addons/connects/services/ontraport/class-cpro-service-ontraport.php:110
+#: addons/connects/services/sendy/class-cpro-service-sendy.php:94
+#: addons/connects/services/simplycast/class-cpro-service-simplycast.php:84
+#: addons/connects/services/verticalresponse/class-cpro-service-verticalresponse.php:102
+msgid "Error: You must provide an API Key."
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:95
+#: addons/connects/services/benchmark-email/class-cpro-service-benchmark-email.php:94
+#: addons/connects/services/campaign-monitor/class-cpro-service-campaign-monitor.php:83
+#: addons/connects/services/campaign-monitor/class-cpro-service-campaign-monitor.php:161
+#: addons/connects/services/convertkit/class-cpro-service-convertkit.php:96
+#: addons/connects/services/convertkit/class-cpro-service-convertkit.php:168
+#: addons/connects/services/drip/class-cpro-service-drip.php:104
+#: addons/connects/services/drip/class-cpro-service-drip.php:188
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:118
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:232
+#: addons/connects/services/ontraport/class-cpro-service-ontraport.php:117
+msgid ""
+"Oops! You've entered the wrong API Key. Please enter the API key and try "
+"again."
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:126
+msgid "API URL"
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:127
+msgid ""
+"Your API URL can be found in your ActiveCampaign account under My Settings "
+"> Developer > API Access."
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:136
+#: addons/connects/services/benchmark-email/class-cpro-service-benchmark-email.php:124
+#: addons/connects/services/campaign-monitor/class-cpro-service-campaign-monitor.php:104
+#: addons/connects/services/constant-contact/class-cpro-service-constant-contact.php:99
+#: addons/connects/services/convertkit/class-cpro-service-convertkit.php:135
+#: addons/connects/services/customerio/class-cpro-service-customerio.php:109
+#: addons/connects/services/drip/class-cpro-service-drip.php:125
+#: addons/connects/services/elasticemail/class-cpro-service-elasticemail.php:125
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:162
+#: addons/connects/services/hubspot/class-cpro-service-hubspot.php:100
+#: addons/connects/services/infusionsoft/class-cpro-service-infusionsoft.php:209
+#: addons/connects/services/klaviyo/class-cpro-service-klaviyo.php:121
+#: addons/connects/services/madmimi/class-cpro-service-madmimi.php:131
+#: addons/connects/services/mailchimp/class-cpro-service-mailchimp.php:121
+#: addons/connects/services/mailerlite/class-cpro-service-mailerlite.php:127
+#: addons/connects/services/mailgun/class-cpro-service-mailgun.php:130
+#: addons/connects/services/mailjet/class-cpro-service-mailjet.php:148
+#: addons/connects/services/moosend/class-cpro-service-moosend.php:117
+#: addons/connects/services/ontraport/class-cpro-service-ontraport.php:152
+#: addons/connects/services/sendgrid/class-cpro-service-sendgrid.php:126
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:134
+#: addons/connects/services/sendlane/class-cpro-service-sendlane.php:129
+#: addons/connects/services/sendy/class-cpro-service-sendy.php:135
+#: addons/connects/services/verticalresponse/class-cpro-service-verticalresponse.php:131
+msgid "API Key"
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:137
+msgid ""
+"Your API Key can be found in your ActiveCampaign account under My Settings "
+"> Developer > API Access."
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:196
+#: addons/connects/services/campayn/class-cpro-service-campayn.php:221
+#: addons/connects/services/simplycast/class-cpro-service-simplycast.php:172
+msgid "Error: No lists found."
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:203
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:225
+#: addons/connects/services/convertkit/class-cpro-service-convertkit.php:184
+msgid "Error: No forms found."
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:249
+msgid "Choose"
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:250
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:152
+msgid "List"
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:251
+msgid "Form"
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:362
+#: addons/connects/services/aweber/class-cpro-service-aweber.php:279
+#: addons/connects/services/convertkit/class-cpro-service-convertkit.php:270
+#: addons/connects/services/drip/class-cpro-service-drip.php:312
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:438
+msgid "Please separate tags with a comma."
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:363
+#: addons/connects/services/aweber/class-cpro-service-aweber.php:278
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:437
+#: addons/connects/services/ontraport/class-cpro-service-ontraport.php:236
+msgid "Tags"
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:402
+msgid ""
+"There was an error subscribing to ActiveCampaign! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:464
+msgid "There was an error subscribing to ActiveCampaign!"
+msgstr ""
+
+#: addons/connects/services/aweber/class-cpro-service-aweber.php:89
+msgid "Error: You must provide an Authorization Code."
+msgstr ""
+
+#: addons/connects/services/aweber/class-cpro-service-aweber.php:92
+msgid "Error: Please enter a valid Authorization Code."
+msgstr ""
+
+#: addons/connects/services/aweber/class-cpro-service-aweber.php:141
+#. translators: %s Link
+msgid ""
+"Please register this website with AWeber to get your Authorization Code. "
+"<a%s rel=\"noopener\">Register Now</a>"
+msgstr ""
+
+#: addons/connects/services/aweber/class-cpro-service-aweber.php:247
+#: addons/connects/services/elasticemail/class-cpro-service-elasticemail.php:228
+#: addons/connects/services/fluentcrm/class-cpro-service-fluentcrm.php:199
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:274
+#: addons/connects/services/klaviyo/class-cpro-service-klaviyo.php:219
+#: addons/connects/services/madmimi/class-cpro-service-madmimi.php:216
+#: addons/connects/services/mailchimp/class-cpro-service-mailchimp.php:236
+#: addons/connects/services/mailgun/class-cpro-service-mailgun.php:241
+#: addons/connects/services/moosend/class-cpro-service-moosend.php:204
+#: addons/connects/services/sendfox/class-cpro-service-sendfox.php:205
+#: addons/connects/services/sendgrid/class-cpro-service-sendgrid.php:221
+#: addons/connects/services/sendlane/class-cpro-service-sendlane.php:244
+#: addons/connects/services/verticalresponse/class-cpro-service-verticalresponse.php:231
+msgid "Select a List"
+msgstr ""
+
+#: addons/connects/services/aweber/class-cpro-service-aweber.php:315
+msgid ""
+"There was an error subscribing to AWeber! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/aweber/class-cpro-service-aweber.php:361
+#. translators: %s Error Message
+msgid "There was an error subscribing to AWeber! %s"
+msgstr ""
+
+#: addons/connects/services/benchmark-email/class-cpro-service-benchmark-email.php:125
+msgid ""
+"Your API Key can be found under Account Settings in your Benchmark Email "
+"account."
+msgstr ""
+
+#: addons/connects/services/benchmark-email/class-cpro-service-benchmark-email.php:172
+#: addons/connects/services/benchmark-email/class-cpro-service-benchmark-email.php:175
+msgid ""
+"No lists created yet! Please login to your Benchmark Email account and "
+"create a list."
+msgstr ""
+
+#: addons/connects/services/benchmark-email/class-cpro-service-benchmark-email.php:249
+msgid ""
+"There was an error subscribing to Benchmark Email! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/benchmark-email/class-cpro-service-benchmark-email.php:275
+msgid "There was an error subscribing to Benchmark Email!"
+msgstr ""
+
+#: addons/connects/services/campaign-monitor/class-cpro-service-campaign-monitor.php:67
+#: addons/connects/services/campayn/class-cpro-service-campayn.php:116
+#: addons/connects/services/constant-contact/class-cpro-service-constant-contact.php:61
+#: addons/connects/services/customerio/class-cpro-service-customerio.php:73
+#: addons/connects/services/elasticemail/class-cpro-service-elasticemail.php:86
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:83
+#: addons/connects/services/hubspot/class-cpro-service-hubspot.php:64
+#: addons/connects/services/infusionsoft/class-cpro-service-infusionsoft.php:170
+#: addons/connects/services/klaviyo/class-cpro-service-klaviyo.php:85
+#: addons/connects/services/madmimi/class-cpro-service-madmimi.php:87
+#: addons/connects/services/mailchimp/class-cpro-service-mailchimp.php:85
+#: addons/connects/services/mailgun/class-cpro-service-mailgun.php:90
+#: addons/connects/services/mailjet/class-cpro-service-mailjet.php:94
+#: addons/connects/services/moosend/class-cpro-service-moosend.php:85
+#: addons/connects/services/sendgrid/class-cpro-service-sendgrid.php:94
+#: addons/connects/services/sendlane/class-cpro-service-sendlane.php:85
+msgid "Error: You must provide an API key."
+msgstr ""
+
+#: addons/connects/services/campaign-monitor/class-cpro-service-campaign-monitor.php:105
+msgid ""
+"Your API key can be found in your Campaign Monitor account under Account "
+"settings > API Keys."
+msgstr ""
+
+#: addons/connects/services/campaign-monitor/class-cpro-service-campaign-monitor.php:290
+msgid ""
+"There was an error subscribing to Campaign Monitor! The account is no "
+"longer connected."
+msgstr ""
+
+#: addons/connects/services/campaign-monitor/class-cpro-service-campaign-monitor.php:326
+msgid "There was an error subscribing to Campaign Monitor!"
+msgstr ""
+
+#: addons/connects/services/campayn/class-cpro-service-campayn.php:113
+msgid "Error: You must provide a Host."
+msgstr ""
+
+#: addons/connects/services/campayn/class-cpro-service-campayn.php:131
+#: addons/connects/services/campayn/class-cpro-service-campayn.php:211
+#. translators: %s Error Message
+msgid ""
+"Oops! You've entered the wrong API Key. Please enter the API key and try "
+"again. %s"
+msgstr ""
+
+#: addons/connects/services/campayn/class-cpro-service-campayn.php:158
+msgid "Campayn Domain"
+msgstr ""
+
+#: addons/connects/services/campayn/class-cpro-service-campayn.php:167
+msgid "Campayn API Key"
+msgstr ""
+
+#: addons/connects/services/campayn/class-cpro-service-campayn.php:296
+msgid ""
+"There was an error subscribing to Campayn! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/campayn/class-cpro-service-campayn.php:347
+#. translators: %s Error Message
+msgid "There was an error subscribing to Campayn. %s"
+msgstr ""
+
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:114
+msgid "Error: You must provide an Customer ID."
+msgstr ""
+
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:116
+msgid "Error: You must provide an Username."
+msgstr ""
+
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:118
+msgid "Error: You must provide an Password."
+msgstr ""
+
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:123
+msgid ""
+"Oops! Those are wrong credentials. Please enter the correct credentials and "
+"try again!"
+msgstr ""
+
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:132
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:467
+msgid "Sorry! We could not connect to the CleverReach API."
+msgstr ""
+
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:151
+msgid "Customer ID"
+msgstr ""
+
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:152
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:162
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:172
+msgid ""
+"Your API Key can be found in your CleverReach account under My Account > "
+"Extras > API."
+msgstr ""
+
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:161
+msgid "User Name"
+msgstr ""
+
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:171
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:279
+msgid "Password"
+msgstr ""
+
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:323
+#: addons/connects/services/drip/class-cpro-service-drip.php:342
+#: addons/connects/services/fluentcrm/class-cpro-service-fluentcrm.php:270
+#: addons/connects/services/klaviyo/class-cpro-service-klaviyo.php:252
+#: addons/connects/services/mailchimp/class-cpro-service-mailchimp.php:268
+#: addons/connects/services/mailpoet/class-cpro-service-mailpoet.php:228
+#: addons/connects/services/mymail/class-cpro-service-mymail.php:180
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:390
+#: addons/connects/services/sendlane/class-cpro-service-sendlane.php:276
+msgid "Enable Double Opt-in"
+msgstr ""
+
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:353
+msgid "Please choose list..."
+msgstr ""
+
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:453
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:456
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:462
+#: addons/connects/services/mailpoet/class-cpro-service-mailpoet.php:409
+#: addons/connects/services/mailwizz/class-cpro-service-mailwizz.php:347
+#: addons/connects/services/mymail/class-cpro-service-mymail.php:249
+#: addons/connects/services/sendreach/class-cpro-service-sendreach.php:360
+#: addons/connects/services/simplycast/class-cpro-service-simplycast.php:98
+msgid "Something went wrong! Please try again."
+msgstr ""
+
+#: addons/connects/services/constant-contact/class-cpro-service-constant-contact.php:64
+msgid "Error: You must provide an access token."
+msgstr ""
+
+#: addons/connects/services/constant-contact/class-cpro-service-constant-contact.php:72
+#: addons/connects/services/constant-contact/class-cpro-service-constant-contact.php:158
+#. translators: %s Error Message
+msgid "Error: Could not connect to Constant Contact. %s"
+msgstr ""
+
+#: addons/connects/services/constant-contact/class-cpro-service-constant-contact.php:100
+msgid "Your Constant Contact API key."
+msgstr ""
+
+#: addons/connects/services/constant-contact/class-cpro-service-constant-contact.php:108
+msgid "Access Token"
+msgstr ""
+
+#: addons/connects/services/constant-contact/class-cpro-service-constant-contact.php:109
+msgid "Your Constant Contact access token."
+msgstr ""
+
+#: addons/connects/services/constant-contact/class-cpro-service-constant-contact.php:111
+#. translators: %s Links
+msgid ""
+"You must register a <a%1$s rel=\"noopener\">Developer Account</a> with "
+"Constant Contact to obtain an API key and access token. Please refer to: "
+"<a%1$s rel=\"noopener\">Getting an API key</a> for further instructions."
+msgstr ""
+
+#: addons/connects/services/constant-contact/class-cpro-service-constant-contact.php:252
+msgid ""
+"There was an error subscribing to Constant Contact! The account is no "
+"longer connected."
+msgstr ""
+
+#: addons/connects/services/constant-contact/class-cpro-service-constant-contact.php:327
+#: addons/connects/services/constant-contact/class-cpro-service-constant-contact.php:373
+#. translators: %s Error Message
+msgid "There was an error subscribing to Constant Contact! %s"
+msgstr ""
+
+#: addons/connects/services/convertfox/class-cpro-service-convertfox.php:96
+msgid "Error: You must provide a Project ID."
+msgstr ""
+
+#: addons/connects/services/convertfox/class-cpro-service-convertfox.php:119
+msgid "Project ID"
+msgstr ""
+
+#: addons/connects/services/convertfox/class-cpro-service-convertfox.php:120
+#: addons/connects/services/zapier/class-cpro-service-zapier.php:118
+msgid "Your project ID can be found in your ConvertFox account under Settings."
+msgstr ""
+
+#: addons/connects/services/convertfox/class-cpro-service-convertfox.php:158
+msgid ""
+"<div class=\"convertfox-nolist-wrap\">Convertfox does not require list or "
+"tags, you can directly move to mapping fields by clicking next button.</div>"
+msgstr ""
+
+#: addons/connects/services/convertfox/class-cpro-service-convertfox.php:192
+msgid ""
+"There was an error subscribing to ConvertFox! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/convertkit/class-cpro-service-convertkit.php:136
+msgid ""
+"Your API Key can be found in your ConvertKit account under Account > "
+"Account Settings > API Key."
+msgstr ""
+
+#: addons/connects/services/convertkit/class-cpro-service-convertkit.php:300
+msgid ""
+"There was an error subscribing to ConvertKit! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/convertkit/class-cpro-service-convertkit.php:407
+#. translators: %s Error Message
+msgid "There was an error subscribing to ConvertKit! %s"
+msgstr ""
+
+#: addons/connects/services/customerio/class-cpro-service-customerio.php:71
+msgid "Error: You must provide a Site ID."
+msgstr ""
+
+#: addons/connects/services/customerio/class-cpro-service-customerio.php:99
+msgid "Site ID"
+msgstr ""
+
+#: addons/connects/services/customerio/class-cpro-service-customerio.php:100
+#: addons/connects/services/customerio/class-cpro-service-customerio.php:110
+msgid ""
+"Your API Key can be found in your Customer.io account under Account > "
+"Settings > API Keys."
+msgstr ""
+
+#: addons/connects/services/customerio/class-cpro-service-customerio.php:167
+msgid "Customer ID Prefix"
+msgstr ""
+
+#: addons/connects/services/customerio/class-cpro-service-customerio.php:169
+#. translators: %s Product name
+msgid ""
+"Customer.io works by segmenting your customers based on data passed while "
+"creating / updating the customer. By default any customer added to your "
+"Customer.io account through %1$s will be prefixed as <b>\"convertpro\"</b> "
+"and segmented as <b>\"%2$s\"</b> for segmentation."
+msgstr ""
+
+#: addons/connects/services/customerio/class-cpro-service-customerio.php:210
+msgid ""
+"There was an error subscribing to Customer.io! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/customerio/class-cpro-service-customerio.php:286
+#. translators: %s Error Message
+msgid "There was an error subscribing to Customer.io! %s"
+msgstr ""
+
+#: addons/connects/services/drip/class-cpro-service-drip.php:90
+#: addons/connects/services/mailerlite/class-cpro-service-mailerlite.php:92
+msgid "Error: You must provide an API token."
+msgstr ""
+
+#: addons/connects/services/drip/class-cpro-service-drip.php:126
+msgid ""
+"Your API key can be found in your Drip account under Account settings > API "
+"Keys."
+msgstr ""
+
+#: addons/connects/services/drip/class-cpro-service-drip.php:388
+msgid "There was an error subscribing to Drip! The account is no longer connected."
+msgstr ""
+
+#: addons/connects/services/drip/class-cpro-service-drip.php:431
+msgid "There was an error subscribing to Drip!"
+msgstr ""
+
+#: addons/connects/services/elasticemail/class-cpro-service-elasticemail.php:88
+msgid "Error: You must provide an Public Account ID."
+msgstr ""
+
+#: addons/connects/services/elasticemail/class-cpro-service-elasticemail.php:126
+msgid ""
+"Your API key can be found in your Elastic Email account under Settings > "
+"API."
+msgstr ""
+
+#: addons/connects/services/elasticemail/class-cpro-service-elasticemail.php:135
+msgid "Public Account ID"
+msgstr ""
+
+#: addons/connects/services/elasticemail/class-cpro-service-elasticemail.php:136
+msgid ""
+"Your Account ID can be found in your AElastic Email account under Settings "
+"> API."
+msgstr ""
+
+#: addons/connects/services/elasticemail/class-cpro-service-elasticemail.php:266
+msgid ""
+"There was an error subscribing to Elastic Email! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/elasticemail/class-cpro-service-elasticemail.php:355
+#. translators: %s Error Message
+msgid "There was an error subscribing to ElasticEMail! %s"
+msgstr ""
+
+#: addons/connects/services/fluentcrm/class-cpro-service-fluentcrm.php:90
+#: addons/connects/services/fluentcrm/class-cpro-service-fluentcrm.php:133
+#: addons/connects/services/fluentcrm/class-cpro-service-fluentcrm.php:307
+msgid ""
+"Error: FluentCRM connects addon requires FluentCRM plugin installed and "
+"activated."
+msgstr ""
+
+#: addons/connects/services/fluentcrm/class-cpro-service-fluentcrm.php:151
+msgid "No lists found in your FluentCRM account."
+msgstr ""
+
+#: addons/connects/services/fluentcrm/class-cpro-service-fluentcrm.php:238
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:318
+#: addons/connects/services/infusionsoft/class-cpro-service-infusionsoft.php:338
+#: addons/connects/services/sendlane/class-cpro-service-sendlane.php:313
+msgid "Select Tags"
+msgstr ""
+
+#: addons/connects/services/fluentcrm/class-cpro-service-fluentcrm.php:314
+msgid ""
+"There was an error subscribing to FluentCRM! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/fluentcrm/class-cpro-service-fluentcrm.php:377
+#. translators: %s Error Message
+msgid "There was an error subscribing to FluentCRM! %s"
+msgstr ""
+
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:89
+msgid "Error: You must select GetResponse Account type"
+msgstr ""
+
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:96
+msgid "Error: You must provide a GetResponse Domain Name"
+msgstr ""
+
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:139
+msgid "Select Account Type"
+msgstr ""
+
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:140
+msgid "Simple"
+msgstr ""
+
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:141
+msgid "GetResponse Enterprise COM"
+msgstr ""
+
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:142
+msgid "GetResponse Enterprise PL"
+msgstr ""
+
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:163
+msgid ""
+"Your GetResponse API key can be found in your GetResponse My Account "
+"section. > GetResponse API."
+msgstr ""
+
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:172
+msgid "GetResponse Domain Name"
+msgstr ""
+
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:173
+msgid ""
+"Your GetResponse Domain Name can be found in your GetResponse Manage "
+"Account section. > Domains."
+msgstr ""
+
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:355
+msgid ""
+"There was an error subscribing to GetResponse! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/getresponse/class-cpro-service-getresponse.php:485
+#. translators: %s Error Message
+msgid "There was an error subscribing to GetResponse. %s"
+msgstr ""
+
+#: addons/connects/services/hubspot/class-cpro-service-hubspot.php:101
+msgid ""
+"Your API key can be found in your HubSpot account under Account settings > "
+"API Keys."
+msgstr ""
+
+#: addons/connects/services/hubspot/class-cpro-service-hubspot.php:232
+msgid ""
+"There was an error subscribing to HubSpot! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/hubspot/class-cpro-service-hubspot.php:264
+msgid "There was an error subscribing to HubSpot!"
+msgstr ""
+
+#: addons/connects/services/hubspot/class-cpro-service-hubspot.php:280
+#: addons/connects/services/hubspot/class-cpro-service-hubspot.php:285
+msgid "There was an error subscribing to HubSpot."
+msgstr ""
+
+#: addons/connects/services/icontact/class-cpro-service-icontact.php:92
+msgid "Error: You must provide a Username."
+msgstr ""
+
+#: addons/connects/services/icontact/class-cpro-service-icontact.php:95
+#: addons/connects/services/ontraport/class-cpro-service-ontraport.php:107
+msgid "Error: You must provide an App ID."
+msgstr ""
+
+#: addons/connects/services/icontact/class-cpro-service-icontact.php:98
+msgid "Error: You must provide an App Password."
+msgstr ""
+
+#: addons/connects/services/icontact/class-cpro-service-icontact.php:119
+#: addons/connects/services/icontact/class-cpro-service-icontact.php:219
+#. translators: %s Error Message
+msgid "Error: Could not connect to iContact. %s"
+msgstr ""
+
+#: addons/connects/services/icontact/class-cpro-service-icontact.php:140
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:270
+msgid "Username"
+msgstr ""
+
+#: addons/connects/services/icontact/class-cpro-service-icontact.php:141
+msgid "Your iContact username"
+msgstr ""
+
+#: addons/connects/services/icontact/class-cpro-service-icontact.php:150
+msgid "App ID"
+msgstr ""
+
+#: addons/connects/services/icontact/class-cpro-service-icontact.php:151
+msgid "Your iContact App ID"
+msgstr ""
+
+#: addons/connects/services/icontact/class-cpro-service-icontact.php:160
+msgid "App Password"
+msgstr ""
+
+#: addons/connects/services/icontact/class-cpro-service-icontact.php:161
+msgid "Your iContact App Password"
+msgstr ""
+
+#: addons/connects/services/icontact/class-cpro-service-icontact.php:296
+msgid ""
+"There was an error subscribing to iContact! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/icontact/class-cpro-service-icontact.php:337
+#. translators: %s Error Message
+msgid "There was an error subscribing to iContact! %s"
+msgstr ""
+
+#: addons/connects/services/infusionsoft/class-cpro-service-infusionsoft.php:175
+msgid "Error: You must provide an App key."
+msgstr ""
+
+#: addons/connects/services/infusionsoft/class-cpro-service-infusionsoft.php:219
+msgid "App Name"
+msgstr ""
+
+#: addons/connects/services/infusionsoft/class-cpro-service-infusionsoft.php:302
+msgid "Error: Please check your API key."
+msgstr ""
+
+#: addons/connects/services/infusionsoft/class-cpro-service-infusionsoft.php:354
+msgid "Action ID"
+msgstr ""
+
+#: addons/connects/services/infusionsoft/class-cpro-service-infusionsoft.php:392
+msgid ""
+"There was an error subscribing to Infusionsoft! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/infusionsoft/class-cpro-service-infusionsoft.php:438
+#. translators: %s Error Message
+msgid "There was an error subscribing to Infusionsoft! %s"
+msgstr ""
+
+#: addons/connects/services/klaviyo/class-cpro-service-klaviyo.php:122
+msgid ""
+"Your API Key can be found in your Klaviyo account under Account > Settings "
+"> API Keys."
+msgstr ""
+
+#: addons/connects/services/klaviyo/class-cpro-service-klaviyo.php:177
+#: addons/connects/services/mailgun/class-cpro-service-mailgun.php:197
+#: addons/connects/services/mailgun/class-cpro-service-mailgun.php:200
+#: addons/connects/services/sendgrid/class-cpro-service-sendgrid.php:181
+msgid "No list added yet."
+msgstr ""
+
+#: addons/connects/services/klaviyo/class-cpro-service-klaviyo.php:289
+msgid ""
+"There was an error subscribing to Klaviyo! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/klaviyo/class-cpro-service-klaviyo.php:348
+#. translators: %s Error Message
+msgid "There was an error subscribing to Klaviyo! %s"
+msgstr ""
+
+#: addons/connects/services/madmimi/class-cpro-service-madmimi.php:84
+msgid "Error: You must provide an email address."
+msgstr ""
+
+#: addons/connects/services/madmimi/class-cpro-service-madmimi.php:95
+msgid "Unable to connect to Mad Mimi. Please check your credentials."
+msgstr ""
+
+#: addons/connects/services/madmimi/class-cpro-service-madmimi.php:121
+msgid "Email Address"
+msgstr ""
+
+#: addons/connects/services/madmimi/class-cpro-service-madmimi.php:122
+msgid "The email address associated with your Mad Mimi account."
+msgstr ""
+
+#: addons/connects/services/madmimi/class-cpro-service-madmimi.php:132
+#: addons/connects/services/mailchimp/class-cpro-service-mailchimp.php:122
+msgid ""
+"Your API key can be found in your MailChimp account under Account > Extras "
+"> API Keys."
+msgstr ""
+
+#: addons/connects/services/madmimi/class-cpro-service-madmimi.php:179
+msgid ""
+"There was a problem retrieving your lists. Please check your API "
+"credentials."
+msgstr ""
+
+#: addons/connects/services/madmimi/class-cpro-service-madmimi.php:252
+#: addons/connects/services/madmimi/class-cpro-service-madmimi.php:275
+msgid ""
+"There was an error subscribing to Mad Mimi. The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/mailchimp/class-cpro-service-mailchimp.php:311
+msgid "Select a Group"
+msgstr ""
+
+#: addons/connects/services/mailchimp/class-cpro-service-mailchimp.php:358
+msgid "Select a Tags"
+msgstr ""
+
+#: addons/connects/services/mailchimp/class-cpro-service-mailchimp.php:396
+msgid ""
+"There was an error subscribing to MailChimp! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/mailchimp/class-cpro-service-mailchimp.php:495
+#. translators: %s Error Message
+msgid "There was an error subscribing to MailChimp! %s"
+msgstr ""
+
+#: addons/connects/services/mailerlite/class-cpro-service-mailerlite.php:106
+#. translators: %s Error code
+msgid "Error: Could not connect to MailerLite. %s"
+msgstr ""
+
+#: addons/connects/services/mailerlite/class-cpro-service-mailerlite.php:128
+msgid ""
+"Your API key can be found in your MailerLite account under Integrations > "
+"Developer API."
+msgstr ""
+
+#: addons/connects/services/mailerlite/class-cpro-service-mailerlite.php:192
+msgid "No lists found."
+msgstr ""
+
+#: addons/connects/services/mailerlite/class-cpro-service-mailerlite.php:270
+msgid ""
+"There was an error subscribing to MailerLite! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/mailerlite/class-cpro-service-mailerlite.php:299
+#. translators: %s Error Code
+msgid "There was an error subscribing to MailerLite! Code: %s"
+msgstr ""
+
+#: addons/connects/services/mailgun/class-cpro-service-mailgun.php:61
+#: addons/connects/services/mailgun/class-cpro-service-mailgun.php:67
+msgid "Something went wrong with Mailgun API files"
+msgstr ""
+
+#: addons/connects/services/mailgun/class-cpro-service-mailgun.php:92
+#: addons/connects/services/sendlane/class-cpro-service-sendlane.php:91
+msgid "Error: You must provide a Domain URL."
+msgstr ""
+
+#: addons/connects/services/mailgun/class-cpro-service-mailgun.php:131
+#: addons/connects/services/mailgun/class-cpro-service-mailgun.php:141
+msgid ""
+"Your API key can be found in your Mailgun account under Account > Extras > "
+"API Keys."
+msgstr ""
+
+#: addons/connects/services/mailgun/class-cpro-service-mailgun.php:140
+#: addons/connects/services/sendlane/class-cpro-service-sendlane.php:149
+msgid "Domain URL"
+msgstr ""
+
+#: addons/connects/services/mailgun/class-cpro-service-mailgun.php:279
+msgid ""
+"There was an error subscribing to Mailgun! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/mailgun/class-cpro-service-mailgun.php:332
+#. translators: %s Error Message
+msgid "There was an error subscribing to Mailgun! %s"
+msgstr ""
+
+#: addons/connects/services/mailjet/class-cpro-service-mailjet.php:97
+msgid "Error: You must provide a secret key."
+msgstr ""
+
+#: addons/connects/services/mailjet/class-cpro-service-mailjet.php:121
+#: addons/connects/services/mailjet/class-cpro-service-mailjet.php:128
+#: addons/connects/services/mailjet/class-cpro-service-mailjet.php:216
+msgid "Error: Could not connect to Mailjet!"
+msgstr ""
+
+#: addons/connects/services/mailjet/class-cpro-service-mailjet.php:149
+msgid "Your MailJet API key"
+msgstr ""
+
+#: addons/connects/services/mailjet/class-cpro-service-mailjet.php:157
+#: addons/connects/services/mailwizz/class-cpro-service-mailwizz.php:189
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:261
+#: addons/connects/services/sendreach/class-cpro-service-sendreach.php:184
+#: addons/connects/services/simplycast/class-cpro-service-simplycast.php:128
+#: addons/connects/services/verticalresponse/class-cpro-service-verticalresponse.php:141
+msgid "Secret Key"
+msgstr ""
+
+#: addons/connects/services/mailjet/class-cpro-service-mailjet.php:158
+msgid "Your Mailjet secret key"
+msgstr ""
+
+#: addons/connects/services/mailjet/class-cpro-service-mailjet.php:160
+#. translators: %s link
+msgid ""
+"Please refer to the following article for more details: <a%1$s "
+"rel=\"noopener\">Getting an API key</a>"
+msgstr ""
+
+#: addons/connects/services/mailjet/class-cpro-service-mailjet.php:224
+msgid "No lists found in your Mailjet account."
+msgstr ""
+
+#: addons/connects/services/mailjet/class-cpro-service-mailjet.php:331
+msgid ""
+"There was an error subscribing to Mailjet! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/mailjet/class-cpro-service-mailjet.php:356
+msgid "There was an error subscribing to Mailjet!"
+msgstr ""
+
+#: addons/connects/services/mailpoet/class-cpro-service-mailpoet.php:90
+#: addons/connects/services/mailpoet/class-cpro-service-mailpoet.php:133
+#: addons/connects/services/mailpoet/class-cpro-service-mailpoet.php:287
+msgid ""
+"Error: MailPoet connects addon requires MailPoet Newsletter plugin "
+"installed and activated."
+msgstr ""
+
+#: addons/connects/services/mailpoet/class-cpro-service-mailpoet.php:157
+msgid "No lists found in your MailPoet account."
+msgstr ""
+
+#: addons/connects/services/mailpoet/class-cpro-service-mailpoet.php:294
+msgid ""
+"There was an error subscribing to MailPoet! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/mailwizz/class-cpro-service-mailwizz.php:128
+msgid "Error: You must provide an Base URL."
+msgstr ""
+
+#: addons/connects/services/mailwizz/class-cpro-service-mailwizz.php:131
+#: addons/connects/services/sendreach/class-cpro-service-sendreach.php:129
+msgid "Error: You must provide a Public Key."
+msgstr ""
+
+#: addons/connects/services/mailwizz/class-cpro-service-mailwizz.php:134
+#: addons/connects/services/sendreach/class-cpro-service-sendreach.php:132
+msgid "Error: You must provide a Private Key."
+msgstr ""
+
+#: addons/connects/services/mailwizz/class-cpro-service-mailwizz.php:146
+#: addons/connects/services/sendreach/class-cpro-service-sendreach.php:151
+msgid "Error: Please check your Public Key and Private Key."
+msgstr ""
+
+#: addons/connects/services/mailwizz/class-cpro-service-mailwizz.php:169
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:217
+msgid "Base URL"
+msgstr ""
+
+#: addons/connects/services/mailwizz/class-cpro-service-mailwizz.php:170
+msgid "Your Base URL to your MailWizz account."
+msgstr ""
+
+#: addons/connects/services/mailwizz/class-cpro-service-mailwizz.php:179
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:252
+#: addons/connects/services/sendreach/class-cpro-service-sendreach.php:174
+#: addons/connects/services/simplycast/class-cpro-service-simplycast.php:118
+msgid "Public Key"
+msgstr ""
+
+#: addons/connects/services/mailwizz/class-cpro-service-mailwizz.php:180
+msgid ""
+"Your Public Key can be found in your MailWizz account under Dashboard > API "
+"Keys."
+msgstr ""
+
+#: addons/connects/services/mailwizz/class-cpro-service-mailwizz.php:190
+msgid ""
+"Your Private key can be found in your MailWizz account under Dashboard > "
+"API Keys."
+msgstr ""
+
+#: addons/connects/services/mailwizz/class-cpro-service-mailwizz.php:254
+msgid "Error: No lists found in your MailWizz account."
+msgstr ""
+
+#: addons/connects/services/mailwizz/class-cpro-service-mailwizz.php:325
+msgid ""
+"There was an error subscribing to MailWizz! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:159
+msgid "Error: You must provide an Mautic Base URL."
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:164
+msgid "Error: You must select Mautic Integration type"
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:170
+msgid "Error: You must provide Mautic Form ID."
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:176
+msgid "Error: You must provide Mautic Username."
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:182
+msgid "Error: You must provide Mautic Password."
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:189
+msgid "Error: You must provide Mautic Public Key."
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:195
+msgid "Error: You must provide Mautic Secret Key."
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:218
+msgid "Mautic Base Url."
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:224
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:231
+msgid "Select Integration Type"
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:225
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:232
+msgid "Mautic Form"
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:226
+msgid "Mautic API (Deprecated)"
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:227
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:233
+msgid "Mautic Username & Password"
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:243
+msgid "Form / Segments"
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:253
+msgid "Mautic Public Key."
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:262
+msgid "Mautic Secret Key."
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:271
+msgid "Mautic Username."
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:280
+msgid "Mautic Password."
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:288
+msgid "Form ID"
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:289
+msgid "Mautic Form ID."
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:337
+#. translators: %s Error Message
+msgid ""
+"All set! You can now proceed to the next step to map all the fields. Make "
+"sure the field name in %s is the same as the one created in Mautic. The "
+"Email field is mapped by default."
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:405
+msgid "Select a segment"
+msgstr ""
+
+#: addons/connects/services/mautic/class-cpro-service-mautic.php:474
+msgid ""
+"There was an error subscribing to Mautic. The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/moosend/class-cpro-service-moosend.php:118
+msgid ""
+"Your API Key can be found in your Moosend account under Account > Settings "
+"> API Keys."
+msgstr ""
+
+#: addons/connects/services/moosend/class-cpro-service-moosend.php:242
+msgid ""
+"There was an error subscribing to Moosend! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/moosend/class-cpro-service-moosend.php:319
+#. translators: %s Error Message
+msgid "There was an error subscribing to Moosend! %s"
+msgstr ""
+
+#: addons/connects/services/mymail/class-cpro-service-mymail.php:73
+#: addons/connects/services/mymail/class-cpro-service-mymail.php:206
+msgid ""
+"Error: Mailster integration requires Mailster Newsletter plugin installed "
+"and activated."
+msgstr ""
+
+#: addons/connects/services/mymail/class-cpro-service-mymail.php:115
+msgid ""
+"Error: The Mailster connects addon requires Mailster Newsletter plugin "
+"installed and activated."
+msgstr ""
+
+#: addons/connects/services/mymail/class-cpro-service-mymail.php:127
+msgid "No lists found in your Mailster account."
+msgstr ""
+
+#: addons/connects/services/mymail/class-cpro-service-mymail.php:255
+msgid "Something went wrong! Subscriber was not added to the list."
+msgstr ""
+
+#: addons/connects/services/ontraport/class-cpro-service-ontraport.php:142
+msgid "APP ID"
+msgstr ""
+
+#: addons/connects/services/ontraport/class-cpro-service-ontraport.php:143
+#: addons/connects/services/ontraport/class-cpro-service-ontraport.php:153
+msgid ""
+"Your API Key can be found in your ONTRAPORT account under Settings > "
+"Administration  > ONTRAPORT API Instructions and Key Manager."
+msgstr ""
+
+#: addons/connects/services/ontraport/class-cpro-service-ontraport.php:198
+msgid "There was an error connecting to ONTRAPORT. Please try again."
+msgstr ""
+
+#: addons/connects/services/ontraport/class-cpro-service-ontraport.php:279
+msgid "Sequence"
+msgstr ""
+
+#: addons/connects/services/ontraport/class-cpro-service-ontraport.php:367
+msgid ""
+"There was an error subscribing to ONTRAPORT! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/sendfox/class-cpro-service-sendfox.php:85
+msgid "Error: You must provide an API Access Token."
+msgstr ""
+
+#: addons/connects/services/sendfox/class-cpro-service-sendfox.php:121
+msgid "API Access Token"
+msgstr ""
+
+#: addons/connects/services/sendfox/class-cpro-service-sendfox.php:122
+msgid ""
+"Your API Access Token can be found in your SendFox account under Settings > "
+"API"
+msgstr ""
+
+#: addons/connects/services/sendfox/class-cpro-service-sendfox.php:243
+msgid ""
+"There was an error subscribing to SendFox! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/sendgrid/class-cpro-service-sendgrid.php:127
+msgid ""
+"Your API Key can be found in your SendGrid account under Account > Settings "
+"> API Keys."
+msgstr ""
+
+#: addons/connects/services/sendgrid/class-cpro-service-sendgrid.php:303
+msgid ""
+"There was an error subscribing to SendGrid! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/sendgrid/class-cpro-service-sendgrid.php:370
+#. translators: %s Error Message
+msgid "There was an error subscribing to SendGrid! %s"
+msgstr ""
+
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:95
+msgid "Error: You must provide an Access Key."
+msgstr ""
+
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:107
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:227
+msgid "There was an error connecting to SendinBlue! Please try again."
+msgstr ""
+
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:110
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:230
+#. translators: %s Message
+msgid "Error: Could not connect to SendinBlue. %s"
+msgstr ""
+
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:135
+msgid ""
+"The API Key can be found under API & Integration in your SendinBlue "
+"account. > Manager Your Keys > Version 2.0 > Access Key."
+msgstr ""
+
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:358
+msgid "Redirection URL"
+msgstr ""
+
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:359
+msgid ""
+"URL of the web page that user will be redirected to after clicking on the "
+"double opt in URL."
+msgstr ""
+
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:429
+msgid ""
+"There was an error subscribing to SendinBlue! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:480
+msgid "There was an error subscribing to SendinBlue! Please try again."
+msgstr ""
+
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:483
+#. translators: %s Message
+msgid "Error: Could not subscribe to SendinBlue. %s"
+msgstr ""
+
+#: addons/connects/services/sendlane/class-cpro-service-sendlane.php:88
+msgid "Error: You must provide a Hash key."
+msgstr ""
+
+#: addons/connects/services/sendlane/class-cpro-service-sendlane.php:130
+msgid ""
+"Your API key can be found in your Sendlane account under Account Settings > "
+"Security Credentials."
+msgstr ""
+
+#: addons/connects/services/sendlane/class-cpro-service-sendlane.php:139
+msgid "Hash Key"
+msgstr ""
+
+#: addons/connects/services/sendlane/class-cpro-service-sendlane.php:140
+msgid ""
+"Your Hash key can be found in your Sendlane account under Account Settings "
+"> Security Credentials."
+msgstr ""
+
+#: addons/connects/services/sendlane/class-cpro-service-sendlane.php:150
+msgid ""
+"Your Domain URL can be found in your Sendlane account under Account "
+"Settings > Security Credentials."
+msgstr ""
+
+#: addons/connects/services/sendlane/class-cpro-service-sendlane.php:351
+msgid ""
+"There was an error subscribing to Sendlane! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/sendlane/class-cpro-service-sendlane.php:384
+#. translators: %s Error Message
+msgid "There was an error subscribing to Sendlane! %s"
+msgstr ""
+
+#: addons/connects/services/sendreach/class-cpro-service-sendreach.php:175
+msgid ""
+"Your Public Key can be found in your SendReach account under Dashboard > "
+"API Keys."
+msgstr ""
+
+#: addons/connects/services/sendreach/class-cpro-service-sendreach.php:185
+msgid ""
+"Your Private key can be found in your SendReach account under Dashboard > "
+"API Keys."
+msgstr ""
+
+#: addons/connects/services/sendreach/class-cpro-service-sendreach.php:259
+msgid "Error: No lists found in your SendReach account."
+msgstr ""
+
+#: addons/connects/services/sendreach/class-cpro-service-sendreach.php:330
+msgid ""
+"There was an error subscribing to SendReach! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/sendy/class-cpro-service-sendy.php:91
+msgid "Error: You must provide an Installation URL."
+msgstr ""
+
+#: addons/connects/services/sendy/class-cpro-service-sendy.php:100
+msgid "Error: API Key or Installation URL not correct."
+msgstr ""
+
+#: addons/connects/services/sendy/class-cpro-service-sendy.php:125
+msgid "Installation URL"
+msgstr ""
+
+#: addons/connects/services/sendy/class-cpro-service-sendy.php:126
+msgid "Your base URL."
+msgstr ""
+
+#: addons/connects/services/sendy/class-cpro-service-sendy.php:136
+msgid "Your API Key can be found in your Sendy account under Settings."
+msgstr ""
+
+#: addons/connects/services/sendy/class-cpro-service-sendy.php:165
+msgid "List ID "
+msgstr ""
+
+#: addons/connects/services/sendy/class-cpro-service-sendy.php:167
+msgid "List ID can be found when you click on 'View all lists'."
+msgstr ""
+
+#: addons/connects/services/sendy/class-cpro-service-sendy.php:240
+msgid "There was an error subscribing to Sendy! The account is no longer connected."
+msgstr ""
+
+#: addons/connects/services/simplycast/class-cpro-service-simplycast.php:87
+msgid "Error: You must provide a Secret key."
+msgstr ""
+
+#: addons/connects/services/simplycast/class-cpro-service-simplycast.php:119
+msgid ""
+"Your API URL can be found in your SimplyCast account under My Settings > "
+"API > New Key."
+msgstr ""
+
+#: addons/connects/services/simplycast/class-cpro-service-simplycast.php:129
+msgid ""
+"Your API Key can be found in your SimplyCast account under My Settings > "
+"API > New Key."
+msgstr ""
+
+#: addons/connects/services/simplycast/class-cpro-service-simplycast.php:247
+msgid ""
+"There was an error subscribing to SimplyCast! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/connects/services/simplycast/class-cpro-service-simplycast.php:282
+msgid "There was an error subscribing to SimplyCast!"
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:65
+msgid "Error: You must provide an API User Name."
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:68
+msgid "Error: You must provide an API Password."
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:78
+msgid "Access denied: Invalid credentials (Username and/or Password key)."
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:99
+msgid "API Username"
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:100
+msgid "Your TotalSend API Username"
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:108
+msgid "API Password"
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:109
+msgid "Your TotalSend API Password"
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:111
+#. translators: %s: Link
+msgid ""
+"Please see <a%1$s rel=\"noopener\">Getting an API details</a> for complete "
+"instructions."
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:267
+msgid "The target subscriber list ID is missing."
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:269
+msgid "Email address is missing."
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:271
+msgid "The IP address of subscriber is missing."
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:273
+msgid "Invalid subscriber list ID"
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:275
+msgid "Invalid email address"
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:277
+msgid ""
+"One of the provided custom fields is empty. Custom field ID and title is "
+"provided as an additional output parameter"
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:279
+msgid "A provided custom field value already exists in the database."
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:281
+msgid ""
+"A provided custom field value failed validation test. Custom field ID and "
+"title is provided as an additional output parameter"
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:285
+msgid "Unknown error occurred!"
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:287
+msgid "Invalid user information!"
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:289
+msgid "Authentication failed or session expired!"
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:291
+msgid "Not enough privileges"
+msgstr ""
+
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:293
+msgid "There was an error subscribing to TotalSend!"
+msgstr ""
+
+#: addons/connects/services/verticalresponse/class-cpro-service-verticalresponse.php:104
+msgid "Error: You must provide a Secret Key."
+msgstr ""
+
+#: addons/connects/services/verticalresponse/class-cpro-service-verticalresponse.php:132
+msgid "API Key."
+msgstr ""
+
+#: addons/connects/services/verticalresponse/class-cpro-service-verticalresponse.php:142
+msgid "Secret Key."
+msgstr ""
+
+#: addons/connects/services/verticalresponse/class-cpro-service-verticalresponse.php:269
+msgid ""
+"There was an error subscribing to VerticalResponse! The account is no "
+"longer connected."
+msgstr ""
+
+#: addons/connects/services/zapier/class-cpro-service-zapier.php:94
+msgid "Error: You must provide a Webhook URL."
+msgstr ""
+
+#: addons/connects/services/zapier/class-cpro-service-zapier.php:117
+msgid "Webhook URL"
+msgstr ""
+
+#: addons/connects/services/zapier/class-cpro-service-zapier.php:156
+msgid ""
+"<div class=\"zapier-nolist-wrap\">Zapier does not require list or tags, you "
+"can directly move to mapping fields by clicking next button.</div>"
+msgstr ""
+
+#: addons/connects/services/zapier/class-cpro-service-zapier.php:190
+msgid ""
+"There was an error subscribing to Zapier! The account is no longer "
+"connected."
+msgstr ""
+
+#: addons/grid/classes/class-cpro-grid.php:54
+#: classes/class-cp-addon-extension.php:43
+msgid "Grid"
+msgstr ""
+
+#: addons/import-export/classes/class-cpro-import-export-helper.php:129
+msgid "Export"
+msgstr ""
+
+#: addons/import-export/classes/class-cpro-import-export-helper.php:157
+msgid "convertpro"
+msgstr ""
+
+#: addons/import-export/classes/class-cpro-import-export-helper.php:439
+#. translators: %s: zip object
+msgid "Failed to Open. Error Code: %s"
+msgstr ""
+
+#: addons/import-export/classes/class-cpro-import-export-helper.php:465
+msgid "Unable to extract the file."
+msgstr ""
+
+#: addons/import-export/classes/class-cpro-import-export-helper.php:516
+msgid "Invalid file ID"
+msgstr ""
+
+#: addons/import-export/classes/class-cpro-import-export-helper.php:627
+msgid "Error in uploading images"
+msgstr ""
+
+#: addons/import-export/classes/class-cpro-import-export-helper.php:647
+msgid "Error in creating design"
+msgstr ""
+
+#: addons/import-export/classes/class-cpro-import-export-helper.php:651
+msgid "Invalid file!"
+msgstr ""
+
+#: classes/class-cp-addon-extension.php:25
+msgid "Connects"
+msgstr ""
+
+#: classes/class-cp-addon-extension.php:37
+msgid "Advanced Scripts"
+msgstr ""
+
+#: classes/class-cp-addon-extension.php:55
+msgid "Import/Export"
+msgstr ""
+
+#: classes/class-cp-addon-loader.php:108
+#. translators: %s URL
+msgid ""
+"Looks like you have used a Mautic API integration in Convert Pro. We "
+"recommend you to please integrate it again using the Username and Password "
+"method.<a href=\"%s\" target=\"_blank\">Read more</a>."
+msgstr ""
+
+#: classes/class-cp-addon-loader.php:146
+msgid ""
+"Please install and activate <strong>Convert Pro</strong> to use "
+"<strong>Convert Pro - Addon</strong>."
+msgstr ""
+
+#: includes/view-extension.php:27
+msgid "Activate"
+msgstr ""
+
+#: includes/view-extension.php:32
+msgid "Deactivate"
+msgstr ""
+
+#: includes/view-extension.php:42
+msgid "Activated"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Convert Pro - Addon"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.convertpro.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Convert Pro Addon is a collection of advanced modules and features that you "
+"can enable or disable as per your needs. With these modules, you can "
+"integrate with third party mailers, view analytics, A/B test your designs, "
+"add advanced scripts and view grid lines within the editor."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Brainstorm Force"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.brainstormforce.com"
+msgstr ""
+
+#: addons/connects/classes/class-convertplugservices.php:389
+msgctxt "Third party service such as MailChimp."
+msgid "Error: Missing service type."
+msgstr ""
+
+#: addons/connects/classes/class-convertplugservices.php:391
+msgctxt "Connection data such as an API key."
+msgid "Error: Missing service data."
+msgstr ""
+
+#: addons/connects/classes/class-convertplugservices.php:393
+msgctxt "Integration name for a third party service such as MailChimp."
+msgid "Error: Please enter a valid integration name."
+msgstr ""
+
+#: addons/connects/classes/class-convertplugservices.php:402
+msgctxt "Integration name for a third party service such as MailChimp."
+msgid ""
+"Hey, looks like you already have an account with the same name. Please use "
+"another Integration Name."
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:246
+msgctxt "Select the list type."
+msgid "Type"
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:289
+msgctxt "Select a form a ActiveCampaign."
+msgid "Form"
+msgstr ""
+
+#: addons/connects/services/activecampaign/class-cpro-service-activecampaign.php:330
+msgctxt "An email list from ActiveCampaign."
+msgid "List"
+msgstr ""
+
+#: addons/connects/services/benchmark-email/class-cpro-service-benchmark-email.php:210
+msgctxt "An email list from Benchmark Email."
+msgid "List"
+msgstr ""
+
+#: addons/connects/services/campaign-monitor/class-cpro-service-campaign-monitor.php:197
+msgctxt "A client account in Campaign Monitor."
+msgid "Client"
+msgstr ""
+
+#: addons/connects/services/campaign-monitor/class-cpro-service-campaign-monitor.php:252
+#: addons/connects/services/constant-contact/class-cpro-service-constant-contact.php:194
+#: addons/connects/services/hubspot/class-cpro-service-hubspot.php:194
+#: addons/connects/services/icontact/class-cpro-service-icontact.php:258
+#: addons/connects/services/mailerlite/class-cpro-service-mailerlite.php:231
+#: addons/connects/services/mailjet/class-cpro-service-mailjet.php:263
+#: addons/connects/services/mailpoet/class-cpro-service-mailpoet.php:196
+#: addons/connects/services/mymail/class-cpro-service-mymail.php:164
+#: addons/connects/services/totalsend/class-cpro-service-totalsend.php:189
+msgctxt "An email list from a third party provider."
+msgid "List"
+msgstr ""
+
+#: addons/connects/services/drip/class-cpro-service-drip.php:280
+msgctxt "An email list from a third party provider."
+msgid "Campaign ( Optional )"
+msgstr ""
+
+#: addons/connects/services/campayn/class-cpro-service-campayn.php:268
+msgctxt "An email list from third party provider."
+msgid "List"
+msgstr ""
+
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:291
+msgctxt "Select a list from CleverReach."
+msgid "List"
+msgstr ""
+
+#: addons/connects/services/clever-reach/class-cpro-service-clever-reach.php:374
+msgctxt "Select a form for this list."
+msgid "Form"
+msgstr ""
+
+#: addons/connects/services/convertkit/class-cpro-service-convertkit.php:230
+msgctxt "A list of forms from ConvertKit."
+msgid "Form"
+msgstr ""
+
+#: addons/connects/services/convertkit/class-cpro-service-convertkit.php:271
+msgctxt "A list of tags from ConvertKit."
+msgid "Tags"
+msgstr ""
+
+#: addons/connects/services/drip/class-cpro-service-drip.php:222
+msgctxt "A client account in Drip."
+msgid "Select Drip Account"
+msgstr ""
+
+#: addons/connects/services/drip/class-cpro-service-drip.php:310
+msgctxt "A contact tags."
+msgid "Tags ( Optional )"
+msgstr ""
+
+#: addons/connects/services/mailwizz/class-cpro-service-mailwizz.php:286
+msgctxt "A list from your MailWizz Account."
+msgid "List"
+msgstr ""
+
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:304
+msgctxt "An email list from SendinBlue."
+msgid "Select a List"
+msgstr ""
+
+#: addons/connects/services/sendinblue/class-cpro-service-sendinblue.php:346
+msgctxt "An Template list Id from SendinBlue for Double-optin."
+msgid "Select a Template ID"
+msgstr ""
+
+#: addons/connects/services/sendreach/class-cpro-service-sendreach.php:291
+msgctxt "A list from your SendReach Account."
+msgid "List"
+msgstr ""
+
+#: addons/connects/services/simplycast/class-cpro-service-simplycast.php:209
+msgctxt "A simple list from SimplyCast."
+msgid "List"
+msgstr ""
