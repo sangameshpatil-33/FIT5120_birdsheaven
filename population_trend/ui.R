@@ -29,7 +29,7 @@ shinyUI(fluidPage(id = 'test',
                         "Year:",
                         min = 2001,
                         max = 2022,
-                        value = 2022
+                        value = 2022, sep =""
         ),
 ),
         # Show a plot of the generated distribution
