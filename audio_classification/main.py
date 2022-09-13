@@ -5,6 +5,10 @@ import librosa
 import numpy as np
 import pickle
 import pandas.util.testing as tm
+from pyngrok import ngrok
+from pyngrok import ngrok, conf, installer
+import os
+import nest_asyncio
 # import tensorflow as tf
 # import keras
 # from keras.models import load_model
@@ -57,4 +61,22 @@ def specie_pred():
 
 
 if __name__ == "__main__":
-    app.run(debug = True)
+    pyngrok_config = conf.get_default()
+    if not os.path.exists(pyngrok_config.ngrok_path):
+        myssl = ssl.create_default_context();
+        myssl.check_hostname=False
+        myssl.verify_mode=ssl.CERT_NONE
+        installer.install_ngrok(pyngrok_config.ngrok_path, context=myssl)
+
+    ngrok_tunnel = ngrok.connect(8000)
+    print("PUBLIC URL:", ngrok_tunnel.public_url)
+    nest_asyncio.apply()
+    app.run(debug = True, port = 8000)
+
+
+
+
+
+
+
+# uvicorn.run(app, port = 8000)
