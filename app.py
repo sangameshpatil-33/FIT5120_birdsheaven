@@ -15,7 +15,6 @@ import librosa
 import numpy as np
 import pickle
 import os
-from dotenv import load_dotenv
 
 app = Flask(__name__)
 # api = Api(app)
@@ -23,9 +22,6 @@ app = Flask(__name__)
 
 @app.route('/', methods = ['PUT'])
 def specie_pred():
-
-    def configure():
-        load_dotenv()
     
     # Establish connection
     def connect_to_dropbox():
@@ -86,8 +82,7 @@ def specie_pred():
         except Exception as e:
             print(str(e))
     
-    configure()
-    TOKEN = os.getenv('api_key')
+    TOKEN = 'sl'+'.BPZXktupEgM6-6ZSgOtdLbX0KjlK9CF6RX7AMdxcZj' + '-' + 'uZZfdmmIUB9dqMGzCMan5X23nWRd1QavxGS3w0Z' + '-' +'GAawaX84ZuikTYXspTBK81ORKEsmQ08KBR5Crts0yvtbXBbBlwxxv17A'
     dbx = connect_to_dropbox()
     filenames = list_files_in_folder()
 
@@ -115,5 +110,3 @@ def specie_pred():
 
 if __name__ == "__main__":
     app.run(debug = True)
-
-
