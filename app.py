@@ -18,7 +18,7 @@ import os
 
 app = Flask(__name__)
 # api = Api(app)
-
+TOKEN = 'sl'+'.BPZXktupEgM6-6ZSgOtdLbX0KjlK9CF6RX7AMdxcZj' + '-' + 'uZZfdmmIUB9dqMGzCMan5X23nWRd1QavxGS3w0Z' + '-' +'GAawaX84ZuikTYXspTBK81ORKEsmQ08KBR5Crts0yvtbXBbBlwxxv17A'
 
 @app.route('/', methods = ['PUT'])
 def specie_pred():
@@ -82,7 +82,7 @@ def specie_pred():
         except Exception as e:
             print(str(e))
     
-    TOKEN = 'sl'+'.BPZXktupEgM6-6ZSgOtdLbX0KjlK9CF6RX7AMdxcZj' + '-' + 'uZZfdmmIUB9dqMGzCMan5X23nWRd1QavxGS3w0Z' + '-' +'GAawaX84ZuikTYXspTBK81ORKEsmQ08KBR5Crts0yvtbXBbBlwxxv17A'
+    
     dbx = connect_to_dropbox()
     filenames = list_files_in_folder()
 
