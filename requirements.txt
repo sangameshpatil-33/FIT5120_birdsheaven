@@ -1,0 +1,11 @@
+io
+pathlib
+pandas==1.4.4
+gunicorn==20.1.0
+pickle
+numpy
+Flask-RESTful==0.3.9
+Flask==2.1.0
+librosa
+os
+python-dotenv
