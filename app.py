@@ -1,5 +1,6 @@
 ## REFERENCE: https://www.geeksforgeeks.org/how-to-automate-the-storage-using-dropbox-api-in-python/
 ## REFERENCE: https://villoro.com/post/dropbox_python
+
 import io
 import pathlib
 import pandas as pd
@@ -13,22 +14,18 @@ from flask_restful import Api, Resource, reqparse
 import librosa
 import numpy as np
 import pickle
-import pandas.util.testing as tm
-from pyngrok import ngrok
-from pyngrok import ngrok, conf, installer
 import os
-import nest_asyncio
-from tensorflow.python.keras.backend import set_session
-
+from dotenv import load_dotenv
 
 app = Flask(__name__)
-api = Api(app)
-
-TOKEN = '****'
+# api = Api(app)
 
 
 @app.route('/', methods = ['PUT'])
 def specie_pred():
+
+    def configure():
+        load_dotenv()
     
     # Establish connection
     def connect_to_dropbox():
@@ -89,6 +86,8 @@ def specie_pred():
         except Exception as e:
             print(str(e))
     
+    configure()
+    TOKEN = os.getenv('api_key')
     dbx = connect_to_dropbox()
     filenames = list_files_in_folder()
 
@@ -101,6 +100,7 @@ def specie_pred():
     model = pickle.load(open("model_saved.sav",'rb'))
     predicted_label=model.predict(mfccs_scaled_features)
     classes_x=np.argmax(predicted_label,axis=1)
+    
     if classes_x == [0]:
         pred = 'Brown Headed'
     elif classes_x == [1]:
@@ -114,16 +114,6 @@ def specie_pred():
 
 
 if __name__ == "__main__":
-    pyngrok_config = conf.get_default()
-    if not os.path.exists(pyngrok_config.ngrok_path):
-        myssl = ssl.create_default_context();
-        myssl.check_hostname=False
-        myssl.verify_mode=ssl.CERT_NONE
-        installer.install_ngrok(pyngrok_config.ngrok_path, context=myssl)
-
-    ngrok_tunnel = ngrok.connect(8000)
-    print("PUBLIC URL:", ngrok_tunnel.public_url)
-    nest_asyncio.apply()
-    app.run(debug = True, port = 8000)
+    app.run(debug = True)
 
 
