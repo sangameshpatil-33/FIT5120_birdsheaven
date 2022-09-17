@@ -2,9 +2,11 @@ requires.io
 pathlib
 pandas==1.4.4
 gunicorn==20.1.0
-pickle5
+pickle-mixin
 numpy
 Flask-RESTful==0.3.9
 Flask==2.1.0
 librosa==0.9.2
 dropbox
+keras
+tensorflow
