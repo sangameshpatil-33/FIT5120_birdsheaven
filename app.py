@@ -11,13 +11,9 @@ import numpy as np
 import flask
 from flask import Flask
 from flask_restful import Api, Resource, reqparse
-import librosa
-import numpy as np
-import pickle
-import os
+from pickle5 import pickle
 
 app = Flask(__name__)
-# api = Api(app)
 TOKEN = 'sl'+'.BPZXktupEgM6-6ZSgOtdLbX0KjlK9CF6RX7AMdxcZj' + '-' + 'uZZfdmmIUB9dqMGzCMan5X23nWRd1QavxGS3w0Z' + '-' +'GAawaX84ZuikTYXspTBK81ORKEsmQ08KBR5Crts0yvtbXBbBlwxxv17A'
 
 @app.route('/', methods = ['PUT'])
@@ -104,7 +100,7 @@ def specie_pred():
         pred = 'Not Specified'
     else:
         pred = 'White Napped'
-
+    #print(pred)
     return {'class': pred}
 
 
