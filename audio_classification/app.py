@@ -8,17 +8,22 @@ import dropbox
 from dropbox.exceptions import AuthError
 import librosa
 import numpy as np
-import flask
 from flask import Flask
 from flask_restful import Api, Resource, reqparse
 import pickle
+# import pandas.util.testing as tm
+from pyngrok import ngrok
+from pyngrok import ngrok, conf, installer
+import os
+import nest_asyncio
 from tensorflow.python.keras.backend import set_session
+# from dotenv import load_dotenv
 
 
 app = Flask(__name__)
 # api = Api(app)
 
-TOKEN = 'sl' + '.' + 'BPfGb_HgBBmL2llvmRq4HydPMp2evDVrbhqKKq'+'Vhw2LBX2lUBTqyWByc'+'ATPQIwCvV64UhhyVJqxmz2'+'SQRv2ee3bCKVyaG5GyuIDyM'+'3V9rWkHwU7z5TBPYW5'+'YcczrZpgyuZ5LY01pJR0'
+TOKEN = '****'
 
 
 
@@ -95,7 +100,7 @@ def specie_pred():
     file_num = [int(i.split(" ")[0]) for i in filenames if i.endswith('.wav')]
     curr_file = max(file_num)
     user_file = [i for i in wav_files if str(curr_file) in i]
-    # print(user_file)
+    print(user_file)
     mfccs_scaled_features = read_extract_from_file()
     mfccs_scaled_features = mfccs_scaled_features.reshape(1,-1)
     model = pickle.load(open("model_saved.sav",'rb'))
@@ -111,7 +116,7 @@ def specie_pred():
     else:
         pred = 'White Napped'
     #print(pred)
-    return {'class': pred}
+    return {'SPECIE': pred}
 
 @app.route('/', methods = ['GET'])
 def trial():
@@ -119,4 +124,16 @@ def trial():
 
 
 if __name__ == "__main__":
-    app.run(debug = True)
+    pyngrok_config = conf.get_default()
+    if not os.path.exists(pyngrok_config.ngrok_path):
+        myssl = ssl.create_default_context();
+        myssl.check_hostname=False
+        myssl.verify_mode=ssl.CERT_NONE
+        installer.install_ngrok(pyngrok_config.ngrok_path, context=myssl)
+
+    ngrok_tunnel = ngrok.connect(8000)
+    print("PUBLIC URL:", ngrok_tunnel.public_url)
+    nest_asyncio.apply()
+    app.run(debug = True, port = 8000)
+
+
