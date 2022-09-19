@@ -17,17 +17,18 @@ from pyngrok import ngrok, conf, installer
 import os
 import nest_asyncio
 from tensorflow.python.keras.backend import set_session
+from flask_cors import CORS
 # from dotenv import load_dotenv
 
 
 app = Flask(__name__)
 # api = Api(app)
+CORS(app)
+TOKEN = '***'
 
-TOKEN = '****'
 
 
-
-@app.route('/pred', methods = ['PUT'])
+@app.route('/pred', methods = ['GET'])
 def specie_pred():
     
     # Establish connection
